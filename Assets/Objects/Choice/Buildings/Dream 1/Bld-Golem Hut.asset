@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Golem Hut
     spriteIcon: {fileID: 187986651951132341, guid: fad502432838dfd409e2f2d5e36be0a6, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "La montagne semble plus vivante que jamais, si seulement vous construisiez
+      une maison adapt\xE9e, sans doute qu'elle vous aiderez."
+    - The mountain seem more alive than ever, if only you built an appropriate house,
+      no doubt it'll help you.
+    tooltipIcon:
+    - Les golems peuvent toujours vous donner un coup de pouce... Nan je rigole,
+      ils n'ont que des grosses boules de pierre tout  le long du corps.
+    - Golems can always boost you with a thumbs up... Na I joke, they only got big
+      stone balls all along the body
   building:
     buildingSprite: {fileID: -4213470566085808250, guid: 54fb37b672f37274f9a926278afac475, type: 3}
     buildingNextTier: {fileID: 11400000, guid: a7004163f65ea474fa1c966f9c24824c, type: 2}

@@ -26,7 +26,7 @@ public struct StructEventTooltip
     public string name;
     public Sprite spriteIcon;
 
-    [TextArea] public string tooltipIngame, tooltipIcon;
+    [TextArea] public List<string> tooltipIngame, tooltipIcon;
 }
 
 [System.Serializable]

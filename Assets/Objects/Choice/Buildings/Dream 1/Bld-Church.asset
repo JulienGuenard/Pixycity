@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Church
     spriteIcon: {fileID: 1805604770083424398, guid: b3e8d8683582df74eacaad3da84309c7, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Avoir la foi pour votre peuple, c'est croire qu'ils vont pouvoir r\xE9aliser
+      l'impossible, mais aussi le possible."
+    - Have faith for your people, its believe that they will realize the impossible,
+      but the possible too.
+    tooltipIcon:
+    - On peut avoir la foi tout en mangeant du foie au moins une fois parfois.
+    - Did you know in french, the tasty "foie gras" is the same word as faith which
+      is also spelled "foi" ?
   building:
     buildingSprite: {fileID: -7738659351915750149, guid: 59614e8579f8ce046a046da2e53baf1a, type: 3}
     buildingNextTier: {fileID: 11400000, guid: d380da6a420e9234288d4aee8aab015e, type: 2}

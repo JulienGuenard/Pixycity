@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: E-Hzd-Veneration
   m_EditorClassIdentifier: 
   infos:
-    name: Tempest
-    spriteIcon: {fileID: 5863632039811098718, guid: a1d374c869e25ac42a65b311b0c0f588, type: 3}
+    name: Veneration
+    spriteIcon: {fileID: 7442653233000068076, guid: a57252784853ec843b39225734023917, type: 3}
     tooltipIngame: 
     tooltipIcon: 
   choiceList:
-  - {fileID: 11400000, guid: 13e417447a186bd4ba5ea16de0997f9d, type: 2}
-  - {fileID: 11400000, guid: bcad19665a87b5e439ad60056fcd5efc, type: 2}
-  - {fileID: 11400000, guid: ca0a2dbdec747004f9b6f9eed7d19791, type: 2}
+  - {fileID: 11400000, guid: 8fa68f7293a831c459b760a6c5adbbac, type: 2}
+  - {fileID: 11400000, guid: 99eb33ccfdc0e6b4588ed502e097d3ee, type: 2}
+  - {fileID: 11400000, guid: 10def3a673e1ee643a53d80e70805125, type: 2}

@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Stone Mine
     spriteIcon: {fileID: 7918485877483615772, guid: 4fe50140964eb6145af00347b8d4d41c, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Quelque soit la pierre, si vous l'exploitez, elle sera un mat\xE9riau utilis\xE9
+      pour toutes vos constructions, m\xEAme vos cabanes."
+    - Whatever the stone, if you exploit it, it'll be a material used for all your
+      constructions, even cabanas.
+    tooltipIcon:
+    - "Une de vos premi\xE8re carri\xE8re de pierre. Dire qu'il y a en plus de 5000
+      types diff\xE9rents... et si... (non)"
+    - One of your first stone quarry. They are more than 5000 different types of
+      stones... what if... (no)
   building:
     buildingSprite: {fileID: 7918485877483615772, guid: 4fe50140964eb6145af00347b8d4d41c, type: 3}
     buildingNextTier: {fileID: 11400000, guid: a128a0ba6cd045a4b87852f9b3e0c5eb, type: 2}
