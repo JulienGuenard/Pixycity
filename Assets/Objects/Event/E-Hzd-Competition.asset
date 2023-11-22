@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8144b1074162c6d4bb41f2e890d01507, type: 3}
+  m_Name: E-Hzd-Competition
+  m_EditorClassIdentifier: 
+  infos:
+    name: Competition
+    spriteIcon: {fileID: -4535838024045065674, guid: d8061152d7272ca4d936df2917cd56cf, type: 3}
+    tooltipIngame: 
+    tooltipIcon: 
+  choiceList:
+  - {fileID: 11400000, guid: 6045191960400244590ae556d2bbda32, type: 2}
+  - {fileID: 11400000, guid: eeb46f74b00290248817c18f7265dbd9, type: 2}
+  - {fileID: 11400000, guid: e612d8010d4be214f8c18d9a8b650ede, type: 2}

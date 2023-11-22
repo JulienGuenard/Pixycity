@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8144b1074162c6d4bb41f2e890d01507, type: 3}
+  m_Name: E-Hzd-Flood
+  m_EditorClassIdentifier: 
+  infos:
+    name: Flood
+    spriteIcon: {fileID: -8265213088021504605, guid: 1f5d8df11b497bd49b7a4737f73fb201, type: 3}
+    tooltipIngame: 
+    tooltipIcon: 
+  choiceList:
+  - {fileID: 11400000, guid: 4766c4e5b61f93f41a5b273a2a76b730, type: 2}
+  - {fileID: 11400000, guid: 7fe2450b5bcaf144999887f87daaa7bf, type: 2}
+  - {fileID: 11400000, guid: 5e89d09498820204b91aa7be3f1f22ce, type: 2}

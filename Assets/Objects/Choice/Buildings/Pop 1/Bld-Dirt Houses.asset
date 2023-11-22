@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c47899d70d58f4b9cd57a001c18757, type: 3}
+  m_Name: Bld-Dirt Houses
+  m_EditorClassIdentifier: 
+  infos:
+    name: Dirt Houses
+    spriteIcon: {fileID: -2378248522109499069, guid: f1b57267a7342c44b92e8adc25533306, type: 3}
+    tooltipIngame: 
+    tooltipIcon: 
+  building:
+    buildingSprite: {fileID: -2684672940573440203, guid: e57583db505e9e34b9b58f33ebfd7f81, type: 3}
+    buildingNextTier: {fileID: 11400000, guid: 924524b238357db47aae7309f2813ed6, type: 2}
+  slot:
+    specificSlotID: 0
+    posOffset: {x: 0, y: 0}
+    layer: 0
+    scale: 0
+  resources:
+    populationCost: 0
+    moneyCost: 5
+    foodCost: 0
+    toolCost: 5
+    dreamCost: 0
+    populationIncome: 1
+    moneyIncome: 0
+    foodIncome: 0
+    toolIncome: 0
+    dreamIncome: 0
+    populationMax: 20
+    moneyMax: 0
+    foodMax: 0
+    toolMax: 0
+    dreamMax: 0
+    populationUsed: 0
+  hazards:
+  - {fileID: 11400000, guid: cd08df50740f0b348af734911c170fa4, type: 2}
+  - {fileID: 11400000, guid: ff9c87ff7e096904894e66381a11cafe, type: 2}

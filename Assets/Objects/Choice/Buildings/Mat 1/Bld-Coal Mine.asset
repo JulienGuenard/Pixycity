@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c47899d70d58f4b9cd57a001c18757, type: 3}
+  m_Name: Bld-Coal Mine
+  m_EditorClassIdentifier: 
+  infos:
+    name: Coal Mine
+    spriteIcon: {fileID: 68186533771776435, guid: ba98ae9e507a7df4281d50d3251584a9, type: 3}
+    tooltipIngame: 
+    tooltipIcon: 
+  building:
+    buildingSprite: {fileID: -4314546531603278912, guid: 7dd9274d2b779014f8d5b762b716a0df, type: 3}
+    buildingNextTier: {fileID: 11400000, guid: 8821427867366824eaa8a4664ed5ae19, type: 2}
+  slot:
+    specificSlotID: 0
+    posOffset: {x: 0, y: 0}
+    layer: 0
+    scale: 0
+  resources:
+    populationCost: 3
+    moneyCost: 5
+    foodCost: 0
+    toolCost: 10
+    dreamCost: 0
+    populationIncome: 0
+    moneyIncome: 0
+    foodIncome: 0
+    toolIncome: 2
+    dreamIncome: 0
+    populationMax: 0
+    moneyMax: 0
+    foodMax: 0
+    toolMax: 0
+    dreamMax: 0
+    populationUsed: 0
+  hazards:
+  - {fileID: 11400000, guid: 66c10acf66c18a44dbe79d1d0aba2295, type: 2}
+  - {fileID: 11400000, guid: c8549b372c056ec44b055953fd2684e9, type: 2}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c47899d70d58f4b9cd57a001c18757, type: 3}
+  m_Name: Bld-Sculpted Face 2
+  m_EditorClassIdentifier: 
+  infos:
+    name: Sculpted Face 2
+    spriteIcon: {fileID: -4794419783254957029, guid: 1312605be45e8e3459c967bfc5066079, type: 3}
+    tooltipIngame: 
+    tooltipIcon: 
+  building:
+    buildingSprite: {fileID: 5122987416249403261, guid: 5bb1a0495c6cd6241a141013669cf39e, type: 3}
+    buildingNextTier: {fileID: 11400000, guid: fb4b6ca5844a2ec46ac3e68bc8dc80e2, type: 2}
+  slot:
+    specificSlotID: 3
+    posOffset: {x: 0, y: 0}
+    layer: 0
+    scale: 0
+  resources:
+    populationCost: 0
+    moneyCost: 10
+    foodCost: 0
+    toolCost: 20
+    dreamCost: 30
+    populationIncome: 0
+    moneyIncome: 0
+    foodIncome: 0
+    toolIncome: 0
+    dreamIncome: 2
+    populationMax: 0
+    moneyMax: 0
+    foodMax: 0
+    toolMax: 0
+    dreamMax: 0
+    populationUsed: 0
+  hazards: []

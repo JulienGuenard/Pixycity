@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c47899d70d58f4b9cd57a001c18757, type: 3}
+  m_Name: Bld-Master Planter
+  m_EditorClassIdentifier: 
+  infos:
+    name: Master Planter
+    spriteIcon: {fileID: 7543082639197460457, guid: 15cd40cbd427d2f4599f7d702a68cd53, type: 3}
+    tooltipIngame: 
+    tooltipIcon: 
+  building:
+    buildingSprite: {fileID: 7543082639197460457, guid: 15cd40cbd427d2f4599f7d702a68cd53, type: 3}
+    buildingNextTier: {fileID: 11400000, guid: c836c0a7f2aaa294cbd8763db7d24712, type: 2}
+  slot:
+    specificSlotID: 0
+    posOffset: {x: 0, y: 0}
+    layer: 0
+    scale: 0
+  resources:
+    populationCost: 4
+    moneyCost: 10
+    foodCost: 0
+    toolCost: 5
+    dreamCost: 0
+    populationIncome: 0
+    moneyIncome: 0
+    foodIncome: 1
+    toolIncome: 1
+    dreamIncome: 0
+    populationMax: 0
+    moneyMax: 0
+    foodMax: 5
+    toolMax: 5
+    dreamMax: 0
+    populationUsed: 0
+  hazards:
+  - {fileID: 11400000, guid: 39f0ee3d6b6108543b9745d6d775d8cf, type: 2}
+  - {fileID: 11400000, guid: 3b1da31741f0ebe4ab231bf5634e667a, type: 2}

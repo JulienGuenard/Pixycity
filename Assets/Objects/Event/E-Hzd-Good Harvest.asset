@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8144b1074162c6d4bb41f2e890d01507, type: 3}
+  m_Name: E-Hzd-Good Harvest
+  m_EditorClassIdentifier: 
+  infos:
+    name: Good Harvest
+    spriteIcon: {fileID: -7827358874187523211, guid: 8c18c4a13af756d47a16a3d1b04e74a1, type: 3}
+    tooltipIngame: 
+    tooltipIcon: 
+  choiceList:
+  - {fileID: 11400000, guid: f2a5dc5b1d979f44abaf671ed22dc132, type: 2}
+  - {fileID: 11400000, guid: eb6d4082852216a448fbbb272348af5d, type: 2}
+  - {fileID: 11400000, guid: 0e231277d93fcf844b5507b8eea51274, type: 2}

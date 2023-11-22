@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8144b1074162c6d4bb41f2e890d01507, type: 3}
+  m_Name: E-Hzd-Epidemic
+  m_EditorClassIdentifier: 
+  infos:
+    name: Epidemic
+    spriteIcon: {fileID: 2591510092743125618, guid: 5c9b7531fa09e88459af78d3a9a072af, type: 3}
+    tooltipIngame: 
+    tooltipIcon: 
+  choiceList:
+  - {fileID: 11400000, guid: 62523fb72c34f844ca729be61aa513ef, type: 2}
+  - {fileID: 11400000, guid: 6e03decd6f7338b4b949cbaed0d51cec, type: 2}
+  - {fileID: 11400000, guid: 6b94fa32fed682a4f8d46c5028e2c1f8, type: 2}

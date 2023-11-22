@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c47899d70d58f4b9cd57a001c18757, type: 3}
+  m_Name: Bld-Market Post
+  m_EditorClassIdentifier: 
+  infos:
+    name: Market Post
+    spriteIcon: {fileID: -725462378825833591, guid: e1cf6e3b29852ec4fa1f2eea5eb9c1f4, type: 3}
+    tooltipIngame: 
+    tooltipIcon: 
+  building:
+    buildingSprite: {fileID: -2628265685626963033, guid: 5a3f39d1e8a194d418d370c9e0e87f8f, type: 3}
+    buildingNextTier: {fileID: 11400000, guid: 13dcda47c25c87e4cabc6df946c2bf60, type: 2}
+  slot:
+    specificSlotID: 0
+    posOffset: {x: 0, y: 0}
+    layer: 0
+    scale: 0
+  resources:
+    populationCost: 4
+    moneyCost: 5
+    foodCost: 0
+    toolCost: 5
+    dreamCost: 0
+    populationIncome: 0
+    moneyIncome: 2
+    foodIncome: 0
+    toolIncome: 0
+    dreamIncome: 0
+    populationMax: 0
+    moneyMax: 0
+    foodMax: 0
+    toolMax: 0
+    dreamMax: 0
+    populationUsed: 0
+  hazards:
+  - {fileID: 11400000, guid: ac441a7cf28695745969103d0305b609, type: 2}

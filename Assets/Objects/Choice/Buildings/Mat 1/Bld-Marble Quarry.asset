@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c47899d70d58f4b9cd57a001c18757, type: 3}
+  m_Name: Bld-Marble Quarry
+  m_EditorClassIdentifier: 
+  infos:
+    name: Marble Quarry
+    spriteIcon: {fileID: -4515735186236542027, guid: 27cb5d5d6f632a54a9ad899108a81c17, type: 3}
+    tooltipIngame: 
+    tooltipIcon: 
+  building:
+    buildingSprite: {fileID: -105813315505215614, guid: 2d8b72c12b6879e468ce5cb3749d0666, type: 3}
+    buildingNextTier: {fileID: 11400000, guid: 948167abca3ef834aa2a351fdf61f9e4, type: 2}
+  slot:
+    specificSlotID: 0
+    posOffset: {x: 0, y: 0}
+    layer: 0
+    scale: 0
+  resources:
+    populationCost: 4
+    moneyCost: 10
+    foodCost: 0
+    toolCost: 5
+    dreamCost: 0
+    populationIncome: 0
+    moneyIncome: 1
+    foodIncome: 0
+    toolIncome: 2
+    dreamIncome: 0
+    populationMax: 0
+    moneyMax: 0
+    foodMax: 0
+    toolMax: 0
+    dreamMax: 0
+    populationUsed: 0
+  hazards: []

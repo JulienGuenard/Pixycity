@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8144b1074162c6d4bb41f2e890d01507, type: 3}
+  m_Name: E-Hzd-Divine Aura
+  m_EditorClassIdentifier: 
+  infos:
+    name: Divine Aura
+    spriteIcon: {fileID: -8447615678876962321, guid: 7a253cdc44d3b9147985f7cbbb0859bb, type: 3}
+    tooltipIngame: 
+    tooltipIcon: 
+  choiceList:
+  - {fileID: 11400000, guid: 33da6ae9b31dd3a4a85443225c97577e, type: 2}
+  - {fileID: 11400000, guid: b6f76001f7542254eb7fc5b80af48ebe, type: 2}
+  - {fileID: 11400000, guid: 0c3a40f003840534183ecb31f37682d8, type: 2}

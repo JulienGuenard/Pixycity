@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c47899d70d58f4b9cd57a001c18757, type: 3}
+  m_Name: Bld-Inn
+  m_EditorClassIdentifier: 
+  infos:
+    name: Inn
+    spriteIcon: {fileID: -9024109174665516115, guid: c94bba664ac35e64eb4e2657df593c29, type: 3}
+    tooltipIngame: 
+    tooltipIcon: 
+  building:
+    buildingSprite: {fileID: -3503076145065086755, guid: 5259e613cdd0f5943965e423012de583, type: 3}
+    buildingNextTier: {fileID: 11400000, guid: dcc05d0f84e9cb44d863342feca69e6b, type: 2}
+  slot:
+    specificSlotID: 0
+    posOffset: {x: 0, y: 0}
+    layer: 0
+    scale: 0
+  resources:
+    populationCost: 0
+    moneyCost: 10
+    foodCost: 0
+    toolCost: 5
+    dreamCost: 0
+    populationIncome: 1
+    moneyIncome: 2
+    foodIncome: 0
+    toolIncome: 0
+    dreamIncome: 0
+    populationMax: 15
+    moneyMax: 0
+    foodMax: 0
+    toolMax: 0
+    dreamMax: 0
+    populationUsed: 0
+  hazards:
+  - {fileID: 11400000, guid: ac441a7cf28695745969103d0305b609, type: 2}
