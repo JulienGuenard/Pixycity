@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Cheese Shop
     spriteIcon: {fileID: -6671721446441549262, guid: 30c3c4e494ac9614f94697e07428a253, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Plut\xF4t camembert, brie, emmental ? Vous pourrez bient\xF4t avec une commande
+      vocal choisir votre fromage directement dans le jeu."
+    - More like camembert, brie or emmental ? You will soon be able to do a vocal
+      command to choose your cheese directly ingame.
+    tooltipIcon:
+    - Rien de tel que du bon lait, et qui dit lait dit fromage, miam miam !
+    - Nothing else like good milk, and who say milk, say cheese ! Yum yum !
   building:
     buildingSprite: {fileID: -1021891369326320143, guid: d0a1c12d7623fa44b8fef79bc385fa05, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 736330b1f5c308248a8a2e68fb46086a, type: 2}

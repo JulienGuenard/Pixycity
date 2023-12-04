@@ -15,8 +15,13 @@ MonoBehaviour:
   infos:
     name: Mill
     spriteIcon: {fileID: -6902264697650214048, guid: 855d488e3c055d645af4b326bbeb46dc, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Ah... ces h\xE9lices qui tournent, quelque soit l'\xE9poque, on en a toujours
+      besoin."
+    - Ah... those propellers which rotate, whatever the era, we always need one.
+    tooltipIcon:
+    - Pour que vos habitants mangent de la farine tous les jours.
+    - So that your citizens eat flour every day.
   building:
     buildingSprite: {fileID: -6238395017524757708, guid: 426352b6f26559640b1f20d29dd20e87, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 2c2c7cfe880565c48a6e53048559b395, type: 2}

@@ -16,15 +16,15 @@ MonoBehaviour:
     name: Sculpted Face 2
     spriteIcon: {fileID: -4794419783254957029, guid: 1312605be45e8e3459c967bfc5066079, type: 3}
     tooltipIngame:
-    - "Comme vous \xEAtes le chef ici, faites vous sculptez un beau visage sur la
-      montagne, \xE7a fera r\xEAver les gens, c'est s\xFBr !"
-    - Since you're the boss here, you can sculpt a beautiful face on the mountain,
-      it'll make people dream, that's for sure !
-    tooltipIcon:
     - Bon okay, il se trouve que ce beau visage, c'est le votre que vous avez sculptez,
       enfin "vous", le peuple quoi.
     - Yea.. okay, it turns out that in fact this beautiful face is yours, you sculpt
       it with your people... I mean... your people sculpt it and you watched.
+    tooltipIcon:
+    - "Comme vous \xEAtes le chef ici, faites vous sculptez un beau visage sur la
+      montagne, \xE7a fera r\xEAver les gens, c'est s\xFBr !"
+    - Since you're the boss here, you can sculpt a beautiful face on the mountain,
+      it'll make people dream, that's for sure !
   building:
     buildingSprite: {fileID: 5122987416249403261, guid: 5bb1a0495c6cd6241a141013669cf39e, type: 3}
     buildingNextTier: {fileID: 11400000, guid: fb4b6ca5844a2ec46ac3e68bc8dc80e2, type: 2}

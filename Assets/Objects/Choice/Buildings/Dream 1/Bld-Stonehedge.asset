@@ -16,17 +16,17 @@ MonoBehaviour:
     name: Stonehedge
     spriteIcon: {fileID: -7110921759050733178, guid: befd4fe2a3d6a0f46a2bdafa928ee0b9, type: 3}
     tooltipIngame:
-    - "Rassembler des menhirs en cercles peut prendre du temps, mais le feeling que
-      vos habitants auront \xE0 s'allonger contempler les \xE9toiles en vaudra la
-      peine."
-    - Gather menhirs in circle can take time, but the feels your inhabitants will
-      have when they'll sit and stare at stars will be worth it.
-    tooltipIcon:
     - "Ne retirez sous aucun pr\xE9texte l'un des menhirs, si \xE7a se trouve en
       toucher cinq peuvent cr\xE9er un portail vers une ville en ruines, qui sait
       !"
     - Don't retire any menhir, prehaps if you touch five of them it'll summon a portal
       throught a city in ruins, who know !
+    tooltipIcon:
+    - "Rassembler des menhirs en cercles peut prendre du temps, mais le feeling que
+      vos habitants auront \xE0 s'allonger contempler les \xE9toiles en vaudra la
+      peine."
+    - Gather menhirs in circle can take time, but the feels your inhabitants will
+      have when they'll sit and stare at stars will be worth it.
   building:
     buildingSprite: {fileID: 4995599128820075580, guid: ba891a3d9828f5c4d89f070bee97cbd1, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 1dc7679574cdfa7479d2b50ef843f214, type: 2}

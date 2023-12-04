@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Bakery
     spriteIcon: {fileID: 78679280546641128, guid: 6da3a2a1a8632ba48b076dfdae4cb35a, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "1kg de farine, 200g de beurre, 1 demi litre de lait et 30ko de m\xE9moire
+      pour ce succulent pain au pixel !"
+    - 1kg flour, 200g butter, 1 half liter of milk and 30ko memory for this succulent
+      pixel bread !
+    tooltipIcon:
+    - "Le boulanger a le pouvoir de nourrir plus de pop avec autant de bl\xE9, que
+      de magie."
+    - The baker got the power to nourrish more pop with same amount of wheat, sooo
+      magic !
   building:
     buildingSprite: {fileID: -7842732311065177306, guid: 460b3b133d834e5419e1f66c78c234a3, type: 3}
     buildingNextTier: {fileID: 0}

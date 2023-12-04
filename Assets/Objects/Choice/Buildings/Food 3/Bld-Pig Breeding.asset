@@ -15,8 +15,18 @@ MonoBehaviour:
   infos:
     name: Pig Breeding
     spriteIcon: {fileID: 3869543536718562244, guid: 12095958632d4634a9c01af540bf6df2, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Il a fallu prendre des sangliers dans la for\xEAt, les raser enti\xE8rement
+      au rasoir, leur tordre la queue pendant des jours, et les peindre en rose pour
+      fabriquer vos porcs."
+    - 'It was necessary to take boars in the forest, shave them completely with a
+      razor, wring their tails for days, and then paint them in pink to fabricate
+      pigs. '
+    tooltipIcon:
+    - Vos habitants construiront la porcherie pour se nourrir, la pluie construira
+      le bain de boue pour vos porcs.
+    - Your inhabitants will build the pigsty to nourrish themselves, and the rain
+      will build the mud bath for your pigs.
   building:
     buildingSprite: {fileID: -6648360912175306672, guid: 91e311e808fd9fb449e0265bcc0f566e, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 8b03392eed4843c48b7d546464372e30, type: 2}

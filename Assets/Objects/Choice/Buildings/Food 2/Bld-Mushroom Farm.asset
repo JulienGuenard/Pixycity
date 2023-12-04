@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Mushroom Farm
     spriteIcon: {fileID: 4895964847202973330, guid: 4754c711d4ccc434b9e897c9096038c3, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Les champignons pourraient contr\xF4ler le monde un jour, ils n'h\xE9sitent
+      pas \xE0 infiltrer les rangs des fourmis en faisant cro\xEEtre un champignon
+      sur leur t\xEAte des fois."
+    - Mushrooms could take control of the world one day, they don't hesitate to infiltrate
+      the ranks of ants by forming a mushroom on their head sometimes.
+    tooltipIcon:
+    - "La Terre fait appel \xE0 vos services pour couper ses verrues, acceptez-vous
+      ?"
+    - Earth call your services to cut his warts, do you accept ?
   building:
     buildingSprite: {fileID: 4895964847202973330, guid: 4754c711d4ccc434b9e897c9096038c3, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 52d4f8f3725dd5c44b42d43a38f2bc15, type: 2}

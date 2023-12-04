@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Granary
     spriteIcon: {fileID: -6351853055323676177, guid: fabc9eb6419ee14468f18bc69c31bde2, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "C'est comme un frigo pour tout le village, au moins \xE7a fait de la marche
+      et tout le monde voit qui en prend le plus."
+    - Its like a fridge for all a village, at least your villagers must walk a bit
+      and everyone see which one take the most.
+    tooltipIcon:
+    - "Garder vos stocks sur des \xE9tag\xE8res random \xE7a va bien un moment, autant
+      en mettre plein \xE0 un endroit unique."
+    - 'Keep your stocks on random shelves, its okay for a while. Its better to put
+      them all on a same spot. '
   building:
     buildingSprite: {fileID: 7044660864079116489, guid: bf47ad79b6878194b9a89e32846d8e91, type: 3}
     buildingNextTier: {fileID: 11400000, guid: fd7489be4b646b74fbd51ea54c34d955, type: 2}

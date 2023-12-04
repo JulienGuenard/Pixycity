@@ -16,16 +16,16 @@ MonoBehaviour:
     name: Shaman Hut
     spriteIcon: {fileID: 4985125300592686649, guid: f6d3f4225ccd6ad47a83d7451150ae4c, type: 3}
     tooltipIngame:
+    - "Un shaman pourrait bien aider vos habitants \xE0 combler leurs d\xE9sirs les
+      plus cach\xE9s, il gagne tous les Among Us."
+    - A shaman could well aid your inhabitants to fill their most hidden desires,
+      he always win all Among Us.
+    tooltipIcon:
     - "Pr\xE9dire l'avenir ? Il peut ! Lancer des \xE9clairs ? Bien s\xFBr qu'il
       peut ! Et cr\xE9er le coup de foudre pour vous et la personne que vous aimez
       ? H\xE9las... non..."
     - Predict the future ? He can ! Throw lighthings ? Of course he can ! And create
       thunderbolt on the person you love ? Its just a french fetichism...
-    tooltipIcon:
-    - "Un shaman pourrait bien aider vos habitants \xE0 combler leurs d\xE9sirs les
-      plus cach\xE9s, il gagne tous les Among Us."
-    - A shaman could well aid your inhabitants to fill their most hidden desires,
-      he always win all Among Us.
   building:
     buildingSprite: {fileID: -5643839144793699840, guid: f14650544fb942448a4376e7eb2fe026, type: 3}
     buildingNextTier: {fileID: 11400000, guid: aa9bd35fb9bc6ea45a709a498a8bf028, type: 2}

@@ -16,13 +16,13 @@ MonoBehaviour:
     name: Sculpted Face 1
     spriteIcon: {fileID: 8359967236680914276, guid: b8dd33cb21517aa4db1c02aa15721028, type: 3}
     tooltipIngame:
-    - Un visage amical ravira vos habitants d'autant plus s'il est gigantesque.
-    - A friendly face will delight your inhabitants all the more if its gigantic.
-    tooltipIcon:
     - "Certainent croyances croient en la r\xE9incarnation. Elle peut \xEAtre au
       paradis, ou dans un animal, mais pourquoi pas dans un min\xE9ral ?"
     - Certain beliefs believe in reincarnation. It can be in paradise, or even reincarnated
       in an animal, but why not in a mineral ?
+    tooltipIcon:
+    - Un visage amical ravira vos habitants d'autant plus s'il est gigantesque.
+    - A friendly face will delight your inhabitants all the more if its gigantic.
   building:
     buildingSprite: {fileID: 2837890301832001951, guid: 76a5d41c9808d274e87c783bc307c2d8, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 8b2f6e9be43b5a64d8fb58eeb1d5e7b6, type: 2}

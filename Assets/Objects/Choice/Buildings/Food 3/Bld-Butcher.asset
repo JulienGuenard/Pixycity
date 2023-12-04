@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Butcher
     spriteIcon: {fileID: 1463527925869049236, guid: 9d6a0fd3ba5e96e46b6dbc992f941bb7, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Ce serait pas le r\xEAve ultime si vous \xEAtes boucher, d'\xEAtre mort-vivant
+      ? Vous pourriez faire des saucisses de vos entrailles !"
+    - It'll not your ultimate dream if you're a butcher, to be undead ? You could
+      make sausages with your entrails !
+    tooltipIcon:
+    - "Le boucher que vous recruterez prend soin de ses b\xEAtes, les remercie et
+      prie pour eux avant de faire son boulot."
+    - The butcher that you'll recruit will take cares of animals, thanks them and
+      pray for them before doing his duty.
   building:
     buildingSprite: {fileID: -6648360912175306672, guid: 91e311e808fd9fb449e0265bcc0f566e, type: 3}
     buildingNextTier: {fileID: 11400000, guid: ed8e2ab853c7c0045a41735c83181480, type: 2}

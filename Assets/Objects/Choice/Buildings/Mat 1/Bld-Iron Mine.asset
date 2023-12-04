@@ -15,8 +15,12 @@ MonoBehaviour:
   infos:
     name: Iron Mine
     spriteIcon: {fileID: -3772760981634530231, guid: 2e9af3bc55ef00548a4df6589c691643, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - Croix de bois, croix de fer, tu verras que la mienne t'enverras en enfer !
+    - Wooden cross, iron cross, you'll see that mine will send you to hell !
+    tooltipIcon:
+    - "Miam, du bon fer fondu vous feront de tr\xE8s bons outils."
+    - Yum, some good tasty molten iron will make your very fine tools.
   building:
     buildingSprite: {fileID: 1073028633673044380, guid: a474fede32fa53b41a9144cc3f251d5e, type: 3}
     buildingNextTier: {fileID: 0}

@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Master Planter
     spriteIcon: {fileID: 7543082639197460457, guid: 15cd40cbd427d2f4599f7d702a68cd53, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Avant d'\xEAtre auto-centr\xE9, l'Homme avait de vrais diplomates et \xE9missaires
+      pour s'arranger avec la nature et ses myst\xE8res."
+    - Before being self-centered, Man had real diplomats and emissaries for make
+      arrangement with Nature and his mysteries.
+    tooltipIcon:
+    - "Il faut pr\xE9server le ma\xEEtre de la nature, il sait replanter tous les
+      arbres."
+    - We must preserve the master of nature, he know how to regrowth every trees.
   building:
     buildingSprite: {fileID: 7543082639197460457, guid: 15cd40cbd427d2f4599f7d702a68cd53, type: 3}
     buildingNextTier: {fileID: 11400000, guid: c836c0a7f2aaa294cbd8763db7d24712, type: 2}

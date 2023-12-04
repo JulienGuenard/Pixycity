@@ -16,17 +16,17 @@ MonoBehaviour:
     name: Speaking Mountain
     spriteIcon: {fileID: 455624247618587381, guid: 1bf2ffb381c500b44b79dd018ccb5773, type: 3}
     tooltipIngame:
-    - "Vous le saviez depuis le d\xE9but, le r\xEAve ultime de la cit\xE9, est de
-      faire de la montagne un \xEAtre \xE0 part, qu'il puisse se faire entendre."
-    - You know it since the start, the ultimate dream of this city, is to make this
-      mountain a being apart, so he can be finally heard.
-    tooltipIcon:
     - "Si vous \xE9tiez un peu montagnards et que vous ne vous goinfriez pas de chips
       devant la t\xE9l\xE9, vous le sauriez pourtant que les montagnes ont des grands
       yeux et une immense bouche..."
     - If you were a bit of a mountain person and if you didn't eat chips all the
       day in front of your TV, you would know that mountains got giant eyes and a
       huge mouth...
+    tooltipIcon:
+    - "Vous le saviez depuis le d\xE9but, le r\xEAve ultime de la cit\xE9, est de
+      faire de la montagne un \xEAtre \xE0 part, qu'il puisse se faire entendre."
+    - You know it since the start, the ultimate dream of this city, is to make this
+      mountain a being apart, so he can be finally heard.
   building:
     buildingSprite: {fileID: -2434164323432319631, guid: 09885e29795a2634f832c1342be68db8, type: 3}
     buildingNextTier: {fileID: 0}
