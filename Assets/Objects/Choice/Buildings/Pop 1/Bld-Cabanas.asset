@@ -15,8 +15,13 @@ MonoBehaviour:
   infos:
     name: Cabanas
     spriteIcon: {fileID: -5193000625979049393, guid: c338c5d2e25ba2a45bf8bdca1263c8c4, type: 3}
-    tooltipIngame: []
-    tooltipIcon: []
+    tooltipIngame:
+    - "De jolies cabanes fait de bric et de broc, \xE0 moins que ce ne soit de broc
+      et de broucs ?"
+    - Some beautiful cabanas made with mud and dust, or maybe its mud and rock ?
+    tooltipIcon:
+    - "Vos premi\xE8res maisons, qui vous permettront d'abriter de nombreux habitants."
+    - Your first houses, which will able you to shelter numberious inhabitants.
   building:
     buildingSprite: {fileID: 2394492862884224211, guid: bbbf63e7702ccbc4f81201ba73d9005f, type: 3}
     buildingNextTier: {fileID: 11400000, guid: fc935ff178bd05940a528a7a3182ae3f, type: 2}

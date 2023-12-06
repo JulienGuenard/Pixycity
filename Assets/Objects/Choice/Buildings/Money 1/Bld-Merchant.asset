@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Merchant
     spriteIcon: {fileID: -2864546087642289897, guid: 0ef29c23ab58a7343988426dc49be74d, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Il suffit d'avoir quelques bricoles \xE0 vendre, des piques, un comptoir et
+      une toile de lin et vous avez le parfait kit de d\xE9marrage pour marchander."
+    - You just need some things to sell, some spikes, a counter and a linen and you'll
+      get the perfect starting kit to trade.
+    tooltipIcon:
+    - "Avoir des marchands dans votre ville vous fera prosp\xE9rer."
+    - Get some merchants in your city make you prosper.
   building:
     buildingSprite: {fileID: -1793296406816611077, guid: 0ea8b9148d9e9ae49b592b1ccbe91935, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 7cec45dc88def74448e7854e40001533, type: 2}

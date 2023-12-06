@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Market Post
     spriteIcon: {fileID: -725462378825833591, guid: e1cf6e3b29852ec4fa1f2eea5eb9c1f4, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - L'argent c'est le pouvoir de ramener des tonnes de nourritures et d'outils
+      dans votre ville, ne l'oubliez pas.
+    - Money is the power to bring tons of food and tools in your city, don't forget
+      it.
+    tooltipIcon:
+    - "Vous pourrez profiter d'un bon afflux d'argent gr\xE2ce \xE0 ce nouveeau poste
+      de march\xE9."
+    - You'll profit a good money flux due to this new market post.
   building:
     buildingSprite: {fileID: -2628265685626963033, guid: 5a3f39d1e8a194d418d370c9e0e87f8f, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 13dcda47c25c87e4cabc6df946c2bf60, type: 2}

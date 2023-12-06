@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Wood Houses
     spriteIcon: {fileID: 2287866768725357824, guid: a8cec2782e1344d4b94807b014ef1e94, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Sans artisans du bois, vos b\xFBcherons plantent en r\xE9alit\xE9 leurs tonnes
+      de bois ramass\xE9 tel des piques pour former ces maisons, sachez le !"
+    - Without wood craftsman, in reality your woodcutters plant their tons of gathered
+      wood like spikes to form these houses, know it !
+    tooltipIcon:
+    - "Prot\xE8ge mal du feu, mais bien du froid, excellent pour de nouveaux citoyens."
+    - Poorly protects against fire, but well against cold, excellent for new citizens.
   building:
     buildingSprite: {fileID: -1633187257037477703, guid: f532da63971818e4ca8f96b9ebb5df7d, type: 3}
     buildingNextTier: {fileID: 11400000, guid: e152ffb56fd67214c95211b62f9fdba7, type: 2}

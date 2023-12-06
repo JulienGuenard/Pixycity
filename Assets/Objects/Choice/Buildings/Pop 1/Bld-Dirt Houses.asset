@@ -15,8 +15,17 @@ MonoBehaviour:
   infos:
     name: Dirt Houses
     spriteIcon: {fileID: -2378248522109499069, guid: f1b57267a7342c44b92e8adc25533306, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Vos constructeurs ont bizarrement constitu\xE9s vos maisons en bloc cubiques,
+      on peut m\xEAme retrouver des trous cubique un peu partout... \xE9trange..."
+    - Your builders strangely constituted your houses with perfect cubic blocks,
+      you can even find some cubic holes everywhere... strange...
+    tooltipIcon:
+    - "De la terre solidifi\xE9e peut constituer une vraie maison, et contrairement
+      aux apparences, bien entretenu, l'odeur argileux de l'habitat sent tr\xE8s
+      bon !"
+    - Some solidified earth can constitue a real house, and contrary to appearances,
+      well maintened, the clay smell of this settlement smells very good !
   building:
     buildingSprite: {fileID: -2684672940573440203, guid: e57583db505e9e34b9b58f33ebfd7f81, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 924524b238357db47aae7309f2813ed6, type: 2}

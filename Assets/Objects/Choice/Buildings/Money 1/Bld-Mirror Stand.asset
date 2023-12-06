@@ -15,8 +15,18 @@ MonoBehaviour:
   infos:
     name: Mirror Stand
     spriteIcon: {fileID: 2024867863176516778, guid: 266dda729224d344380f45c25b0a9cb4, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "La l\xE9gende veut que le client qui se voit dans le miroir, en face du marchand,
+      ne veut pas se voir perdre la face devant lui, et par cons\xE9quent l'ach\xE8te
+      toujours de bon coeur \xE0 bon prix."
+    - The legend said that the client who see himself in the mirror, face to the
+      merchant, don't want to lose his pride in face off him, and consequently buy
+      it always with a good heart at a good price.
+    tooltipIcon:
+    - "C'est comme \xE7a, votre ville veut faire un trafic de miroir, mais \xE7a
+      rapporte gros, rassurez-vous !"
+    - It happens, your city want to make a mirror traffic, but it oays off big, rest
+      assured !
   building:
     buildingSprite: {fileID: -5681356762485293154, guid: 5f411fd4c8c55ff4a93058fe19c22938, type: 3}
     buildingNextTier: {fileID: 0}
