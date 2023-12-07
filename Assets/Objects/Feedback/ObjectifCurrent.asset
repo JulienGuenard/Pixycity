@@ -16,4 +16,6 @@ MonoBehaviour:
     name: 
     spriteIcon: {fileID: 0}
     tooltipIngame: []
-    tooltipIcon: []
+    tooltipIcon:
+    - Vous essayez actuellement de remplir cet objectif.
+    - You are currently trying to complete this goal.

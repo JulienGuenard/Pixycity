@@ -15,8 +15,13 @@ MonoBehaviour:
   infos:
     name: Be Rich
     spriteIcon: {fileID: 3792614666721799006, guid: 85b5a6dcdf0da174aafae345625c3034, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "De quoi donner envie de chercher des pierres pr\xE9cieuses partout dans le
+      monde."
+    - Enough to make you want to look for precious stones all over the world.
+    tooltipIcon:
+    - "Ce filon peut vous \xEAtes grandement profitable si vous le vendez directement."
+    - This vein can be very profitable for you if you sell it directly.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

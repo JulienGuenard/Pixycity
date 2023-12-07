@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Bad Weather
     spriteIcon: {fileID: 2007673000266270937, guid: b8f9461b3e521ab478ad793485e53c7b, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "De la pluie, de la boue, des bottes encrass\xE9s, tout cela m\xE8ne \xE0 un
+      ralentissement global de vos productions. Il est fatigant de travailler dans
+      un tel climat."
+    - Rain, mud, dirty boots, all this leads to an overall slowdown in your production.
+      It is tiring to work in such a climate.
   choiceList:
   - {fileID: 11400000, guid: 48cc9ededba1fba41950df216a0f874e, type: 2}
   - {fileID: 11400000, guid: 53ec939c346a9f54886f8756b23cd756, type: 2}

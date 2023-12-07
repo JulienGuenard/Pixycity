@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Competition
     spriteIcon: {fileID: -4535838024045065674, guid: d8061152d7272ca4d936df2917cd56cf, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "A force de pratiquer des haches \xE0 tout va, le peuple aiment se comparer
+      dans divers jeux. Ils ont m\xEAme cr\xE9e une association dans le but de cr\xE9er
+      une comp\xE9tition sportive."
+    - By dint of practicing axes at all costs, the people like to compare themselves
+      in various games. They even created an association with the aim of creating
+      a sporting competition.
   choiceList:
   - {fileID: 11400000, guid: 6045191960400244590ae556d2bbda32, type: 2}
   - {fileID: 11400000, guid: eeb46f74b00290248817c18f7265dbd9, type: 2}

@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Burning
     spriteIcon: {fileID: 7329686689518692292, guid: 6e8a9b45d2a99334fbc0e2a1dd072918, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "Un incendie s'est d\xE9clar\xE9 ! Esp\xE9rons que vous ayez des citoyens aux
+      bonnes pratiques pour l'\xE9teindre, dans tous les cas il va vous falloir faire
+      un choix face \xE0 cet accident."
+    - A fire has broken out! Let's hope that you have citizens with good practices
+      to put it out, in any case you will have to make a choice in the face of this
+      accident.
   choiceList:
   - {fileID: 11400000, guid: 3aef79e68823dc241a7b519f36dba997, type: 2}
   - {fileID: 11400000, guid: 9ec9c9e8f0025fe448ace97c8b9a27aa, type: 2}

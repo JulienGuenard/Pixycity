@@ -15,8 +15,12 @@ MonoBehaviour:
   infos:
     name: Feast
     spriteIcon: {fileID: 5309892846067133026, guid: e7863a082dd1c374db7b1b5d859b541f, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - Quoi de mieux pour rendrez vos habitants heureux.
+    - What better to make your residents happy.
+    tooltipIcon:
+    - Faites la fiesta du samedi soir !
+    - Have a Saturday night party !
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

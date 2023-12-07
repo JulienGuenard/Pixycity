@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Veneration
     spriteIcon: {fileID: 7442653233000068076, guid: a57252784853ec843b39225734023917, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "Votre peuple semble v\xE9n\xE9rez les cieux de leur bienveillance, en effet
+      elle semble plus joyeuse que d'autres fois, profitez-en !"
+    - Your people seem to revere the heavens for their benevolence, indeed it seems
+      more joyful than other times, enjoy !
   choiceList:
   - {fileID: 11400000, guid: 8fa68f7293a831c459b760a6c5adbbac, type: 2}
   - {fileID: 11400000, guid: 99eb33ccfdc0e6b4588ed502e097d3ee, type: 2}

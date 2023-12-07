@@ -16,4 +16,6 @@ MonoBehaviour:
     name: 
     spriteIcon: {fileID: 0}
     tooltipIngame: []
-    tooltipIcon: []
+    tooltipIcon:
+    - "Les outils et ressources mat\xE9rielless en tout genre pour servir de construction."
+    - Tools and material resources of all kinds to serve as construction.

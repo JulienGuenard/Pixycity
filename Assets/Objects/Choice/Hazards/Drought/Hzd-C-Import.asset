@@ -15,8 +15,13 @@ MonoBehaviour:
   infos:
     name: Import
     spriteIcon: {fileID: -379232296346050715, guid: a7881aa6739b5db41b5cdefd3c5f5d88, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Le temps de la s\xE9cheresse, ces imports de nourritures sont d'une grande
+      aide."
+    - In times of drought, these food imports are of great help.
+    tooltipIcon:
+    - Votre voisin ne manque jamais de rien, enfin, sauf d'argent.
+    - Your neighbor never lacks anything, well, except money.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

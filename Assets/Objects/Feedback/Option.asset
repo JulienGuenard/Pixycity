@@ -16,4 +16,6 @@ MonoBehaviour:
     name: 
     spriteIcon: {fileID: 0}
     tooltipIngame: []
-    tooltipIcon: []
+    tooltipIcon:
+    - Pour changer le volume ou retourner au menu.
+    - To change the volume or return to the menu.

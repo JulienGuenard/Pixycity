@@ -15,8 +15,12 @@ MonoBehaviour:
   infos:
     name: Reforest
     spriteIcon: {fileID: -6278524350179356200, guid: 35ea79dd1af560a49b17d862829acaab, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - Baby boom de bourgeons en approche.
+    - Baby boom of buds approaching.
+    tooltipIcon:
+    - Jetez moi ce sac de graines et qu'on en parle plus.
+    - Throw me that bag of seeds and let's never talk about it again.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

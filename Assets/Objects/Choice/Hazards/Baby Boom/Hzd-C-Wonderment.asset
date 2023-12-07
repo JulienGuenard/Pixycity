@@ -15,8 +15,12 @@ MonoBehaviour:
   infos:
     name: Wonderment
     spriteIcon: {fileID: -6655317338173632479, guid: d390cdd27aac15949b097fca93a9da10, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Vos jeunes s'amusent, \xE7a vous rendrez presque m\xE9lancolique."
+    - Your young people are having fun, it will almost make you melancholic.
+    tooltipIcon:
+    - "Beh oui, \xE9merveillez les jeunes, offrez leur une Gamecube ! (meilleur console)"
+    - Bah, yes, amaze youngsters, offer them a Gamecube ! (best console)
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

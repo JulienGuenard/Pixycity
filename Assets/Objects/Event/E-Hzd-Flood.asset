@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Flood
     spriteIcon: {fileID: -8265213088021504605, guid: 1f5d8df11b497bd49b7a4737f73fb201, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "C'est la montagne, il est vrai, mais la plupart de votre cit\xE9 se trouve
+      tout en bas, et elle n'est pas \xE0 l'abri des fortes intemp\xE9ries qui ont
+      caus\xE9s ces inondations."
+    - It's the mountain, it's true, but most of your city is at the bottom, and it
+      is not sheltered from the severe weather that caused these floods.
   choiceList:
   - {fileID: 11400000, guid: 4766c4e5b61f93f41a5b273a2a76b730, type: 2}
   - {fileID: 11400000, guid: 7fe2450b5bcaf144999887f87daaa7bf, type: 2}

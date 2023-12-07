@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Tempest
     spriteIcon: {fileID: 5863632039811098718, guid: a1d374c869e25ac42a65b311b0c0f588, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "Quelque fois la nature est bien sinistre, elle d\xE9cide de tout balayer d'un
+      revers de vent. Il va falloir choisir ce que vous voudrez prot\xE9ger le plus."
+    - Sometimes nature is very sinister, it decides to sweep everything away with
+      a wave of wind. You will have to choose what you want to protect the most.
   choiceList:
   - {fileID: 11400000, guid: 13e417447a186bd4ba5ea16de0997f9d, type: 2}
   - {fileID: 11400000, guid: bcad19665a87b5e439ad60056fcd5efc, type: 2}

@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Curse
     spriteIcon: {fileID: 1307435174539324140, guid: 0d71552c03491a3489bfa360631632d2, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "Le mauvais oeil plane sur votre cit\xE9. Vous ne saurez dire d'o\xF9 proviens
+      cette malveillance invisible, toujours est-il qu'il va falloir faire preuve
+      de prudence..."
+    - The evil eye is flying over your city. You won't be able to tell where this
+      invisible malevolence comes from, but you will still have to be careful...
   choiceList:
   - {fileID: 11400000, guid: cceeb95769b38694d9ef67f66bc09b02, type: 2}
   - {fileID: 11400000, guid: f428fe905381f024b8a46f61336a6cbc, type: 2}

@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Neighbours Mop Up
     spriteIcon: {fileID: 8370871475713904362, guid: 1739d07cc95a6fb4e9f295d28f8d3e8f, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Vous nommez cette journ\xE9e, le jour de la propret\xE9 ! Par pur solidarit\xE9
+      !"
+    - 'You name this day : Cleanliness day ! Out of pure solidarity !'
+    tooltipIcon:
+    - "Amenez les voisins dans votre quartier pour faire le m\xE9nage en \xE9change
+      d'une petite contribution."
+    - Bring neighbors to your neighborhood to clean in exchange for a small contribution.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

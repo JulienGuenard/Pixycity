@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Epidemic
     spriteIcon: {fileID: 2591510092743125618, guid: 5c9b7531fa09e88459af78d3a9a072af, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "Un mal inconnu s'est amen\xE9 \xE0 votre cit\xE9, une chose est s\xFBr : elle
+      s'est d\xE9j\xE0 propag\xE9. Vous devez faire quelque chose pour vous en d\xE9barassez."
+    - 'An unknown evil has come to your city, one thing is certain: it has already
+      spread. You have to do something to get rid of it.'
   choiceList:
   - {fileID: 11400000, guid: 62523fb72c34f844ca729be61aa513ef, type: 2}
   - {fileID: 11400000, guid: 6e03decd6f7338b4b949cbaed0d51cec, type: 2}

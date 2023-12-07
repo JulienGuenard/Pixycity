@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Abundance
     spriteIcon: {fileID: 145943148171109325, guid: ca1637b34ba71a544866435355306289, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "Vos citoyens l'ont fait, ils ont tellement bien travaill\xE9, avec le temps
+      qui a lui aussi fait son office, vous voil\xE0 avec des ressources en abondance."
+    - Your citizens did it, they worked so well, with time also doing its job, here
+      you are with resources in abundance.
   choiceList:
   - {fileID: 11400000, guid: cfc01a969e333374bbbe6c1996044a03, type: 2}
   - {fileID: 11400000, guid: 2df88a604bbaba148a585987630c4a6b, type: 2}

@@ -15,8 +15,12 @@ MonoBehaviour:
   infos:
     name: Big Stock
     spriteIcon: {fileID: -1144876673064530178, guid: eac9d893b89a96b4087e1b999d712522, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - Vos stocks vont durer un moment.
+    - Your stocks will last a moment.
+    tooltipIcon:
+    - C'est l'heure de stocker pour plus tard !
+    - Its time to stock for later !
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

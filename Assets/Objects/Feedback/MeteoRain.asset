@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: 
-    spriteIcon: {fileID: 0}
+    spriteIcon: {fileID: -3433653538354320645, guid: 7a7e56aea4ff9854ab32333234f253c5, type: 3}
     tooltipIngame: []
-    tooltipIcon: []
+    tooltipIcon:
+    - "Il commence \xE0 rafraichir et \xE0 pleuvoir \xE0 pleine gouttes."
+    - It begins to cool down and rain heavily.

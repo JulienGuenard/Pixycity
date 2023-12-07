@@ -15,8 +15,12 @@ MonoBehaviour:
   infos:
     name: Pray
     spriteIcon: {fileID: -7435606614117475369, guid: 11214d402fb5b8244b0dee67dcbd2fca, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Tous ensemble, vous avez des \xE9toiles dans les yeux, c'est mignon."
+    - All together, you have stars in your eyes, it's cute.
+    tooltipIcon:
+    - Priez ensemble avec votre peuple pour un monde meilleur.
+    - Pray together with your people for a better world.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Sacrifice
     spriteIcon: {fileID: 2114449719818676961, guid: 53c0ce205812eb845b51ecb1b05e13c1, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Vous faites mine d'avoir faim, vous faites attention \xE0 ne pas faire de
+      bruit de fourchette quand on vous mangez cette carotte."
+    - You pretend to be hungry, you are careful not to make a sound with your fork
+      when you eat this carrot.
+    tooltipIcon:
+    - "Si vous rationnez bien, vous pouvez vous nourrir, et peut-\xEAtre votre famille
+      aussi."
+    - "\rIf you ration well, you can feed yourself, and maybe your family too."
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

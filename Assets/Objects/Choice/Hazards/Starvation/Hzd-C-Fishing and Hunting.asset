@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Fishing and Hunting
     spriteIcon: {fileID: 4500799609798616683, guid: 0bd98bb70a846e1468ea434d6bbcd347, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Le peuple a tellement faim qu'il ne pense m\xEAme pas \xE0 la comp\xE9tition,
+      ils veulent juste manger."
+    - The people are so hungry that they don't even think about the competition,
+      they just want to eat.
+    tooltipIcon:
+    - "Une p\xEAche et une chasse intense pourrez permettre de contrecarrer la famine,
+      mais il va falloir mettre les moyens."
+    - Intense fishing and hunting could help counteract famine, but we will have
+      to put in place the means.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}
@@ -27,9 +35,9 @@ MonoBehaviour:
     scale: 0
   resources:
     populationCost: 0
-    moneyCost: 30
+    moneyCost: 0
     foodCost: 0
-    toolCost: 0
+    toolCost: 30
     dreamCost: 0
     populationIncome: 0
     moneyIncome: 0

@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: 
-    spriteIcon: {fileID: 0}
+    spriteIcon: {fileID: 4502536407844895645, guid: b25099f7cc551554a8919df81c6ac5b0, type: 3}
     tooltipIngame: []
-    tooltipIcon: []
+    tooltipIcon:
+    - Des rayons de soleil apportent de la chaleur aux terres.
+    - Rays of sunlight bring warmth to the land.

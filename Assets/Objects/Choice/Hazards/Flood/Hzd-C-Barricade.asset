@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Barricade
     spriteIcon: {fileID: -5386798367000693196, guid: 7be3d4cb5c8fa974c9a59ea7b1e5919a, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "La devanture de vos maisons est renforc\xE9, et les dents de devant de vos
+      habitants ont pouss\xE9s, int\xE9ressant..."
+    - The front of your houses is reinforced, and the front teeth of your inhabitants
+      have grown, interesting...
+    tooltipIcon:
+    - "C'est pas compliqu\xE9 de faire un barrage devant chaque maison, prenons exemple
+      sur les castors."
+    - It's not complicated to make a dam in front of each house, let's take the example
+      of beavers.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

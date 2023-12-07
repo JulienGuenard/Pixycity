@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Divine Aura
     spriteIcon: {fileID: -8447615678876962321, guid: 7a253cdc44d3b9147985f7cbbb0859bb, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "Une aura de bienfaisance \xE9claire la cit\xE9, peut-\xEAtre est-ce l'oeuvre
+      d'un homme ou de plusieurs qui se sont entre-aid\xE9, ou bien est-ce divin,
+      \xE0 vous de voir comment saisir cet \xE9v\xE8nement."
+    - An aura of beneficence lights up the city, perhaps it is the work of a man
+      or several who helped each other, or is it divine, it is up to you to see how
+      to grasp this event.
   choiceList:
   - {fileID: 11400000, guid: 33da6ae9b31dd3a4a85443225c97577e, type: 2}
   - {fileID: 11400000, guid: b6f76001f7542254eb7fc5b80af48ebe, type: 2}

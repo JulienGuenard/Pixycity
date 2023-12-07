@@ -15,8 +15,12 @@ MonoBehaviour:
   infos:
     name: Fence Sick
     spriteIcon: {fileID: -2833124295411631917, guid: 8fec680d9c3511a4895bcf10f6b1a26f, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Vos malades sont emmur\xE9s chez eux, mesure prise par le maire m\xE9decin."
+    - Your patients are walled up in their homes, a measure taken by the mayor-doctor.
+    tooltipIcon:
+    - Des malades ? Faites leur juste porter un masque... UNE BARRICADE.
+    - Sick people ? Just make them wear a mask... A BARRICADE.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

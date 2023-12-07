@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: 
-    spriteIcon: {fileID: 0}
+    spriteIcon: {fileID: 8595507618648922033, guid: efcb78109bf50d543a4951aba72fb652, type: 3}
     tooltipIngame: []
-    tooltipIcon: []
+    tooltipIcon:
+    - "Des nuages recouvrent le ciel et commencent \xE0 obscurcir les terres"
+    - Clouds cover the sky and begin to obscure the land.

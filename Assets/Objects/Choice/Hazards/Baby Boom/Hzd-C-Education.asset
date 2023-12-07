@@ -15,8 +15,13 @@ MonoBehaviour:
   infos:
     name: Education
     spriteIcon: {fileID: -5578950462197976658, guid: 52460e44fad843547b431231a3346af7, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - Plus de marchands, moins de voleurs ?
+    - More merchant, less robbers ?
+    tooltipIcon:
+    - "Il faut \xE9duquer la nouvelle graine, qui le fera sinon, les parents ? Pouah
+      !"
+    - You must educate the new seed, who will do it otherwise, parents ? Pouah !
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

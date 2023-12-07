@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Ad For City
     spriteIcon: {fileID: 6156467023622427899, guid: 0b50a878c1c4c13458dc03fdf5345e31, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Le beau temps, il est \xE0 vous, que les autres viennent vous rendre visite
+      s'ils veulent en profiter."
+    - The good weather is yours, others can come and visit you if they want to take
+      some relax like you.
+    tooltipIcon:
+    - "Allez paradez dans les villes voisines pour montrer \xE0 quelle point la votre
+      est magnifique."
+    - Go parade around neighboring towns to show off how beautiful yours is.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

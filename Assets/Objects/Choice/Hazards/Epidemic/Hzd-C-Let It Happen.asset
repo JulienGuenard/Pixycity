@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Let It Happen
     spriteIcon: {fileID: 2333349956843851766, guid: 8ab153e274b0fee47873ae945e86ca00, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "La peste noire ? Pff, m\xEAme l'organisme peut lutter contre ! Mais restez
+      bien chez vous par contre."
+    - Black Plague ? Pff, even the body can fight against it ! But stay at home though.
+    tooltipIcon:
+    - "Bah les maladies, c'est naturel, il faut laisser le corps se d\xE9fendre par
+      lui-m\xEAme."
+    - 'Beh ! Illnesses are natural, you have to let the body defend itself.
+
+'
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

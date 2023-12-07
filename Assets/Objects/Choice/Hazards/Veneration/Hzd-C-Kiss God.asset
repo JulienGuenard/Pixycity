@@ -15,8 +15,13 @@ MonoBehaviour:
   infos:
     name: Kiss God
     spriteIcon: {fileID: 4435758015980302494, guid: f2acfc187bea2184c842bf83b71b3b39, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Ce que vous embrassez, c'est Dieu, et tout le monde le reconnait, m\xEAme
+      moi."
+    - What you embrace is God, and everyone recognizes that, even me.
+    tooltipIcon:
+    - Vous embrassez Dieu devant tout le monde.
+    - You kiss God in front of everyone.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

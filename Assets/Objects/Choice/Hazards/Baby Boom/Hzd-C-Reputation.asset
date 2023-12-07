@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Reputation
     spriteIcon: {fileID: -4664868165916927276, guid: 17a155b4bb7596c4b9c54ed9a1af208c, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Un tel leadership fait envier les autres peuples \xE0 vous rejoindre, quelle
+      chance !"
+    - Such leadership make other peoples envious to join you, what a chance !
+    tooltipIcon:
+    - "Montrez \xE0 la nouvelle g\xE9n\xE9ration qui est le p\xE8re de tous les p\xE8res
+      !"
+    - Show to your new generation who is the father of all of fathers !
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

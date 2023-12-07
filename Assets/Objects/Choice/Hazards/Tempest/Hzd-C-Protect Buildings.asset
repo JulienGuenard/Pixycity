@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Protect Buildings
     spriteIcon: {fileID: -1733968234313082927, guid: 32eaca2d15f44904282d6ab290e933a3, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Vous voyez des choses s'envoler, la plupart accompagnent l'orchestre que produit
+      la temp\xEAte."
+    - You see things flying away, most of them accompanying the orchestra that the
+      storm produces.
+    tooltipIcon:
+    - "Abritez-vous ! Mais avant de vous abritez, construisez des renforts sur les
+      b\xE2timents !"
+    - Take shelter ! But before taking shelter, build reinforcements on the buildings
+      !
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

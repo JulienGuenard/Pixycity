@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Good Harvest
     spriteIcon: {fileID: -7827358874187523211, guid: 8c18c4a13af756d47a16a3d1b04e74a1, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "La m\xE9t\xE9o a \xE9t\xE9 profitable \xE0 vos fermes et vos champs, vous
+      pouvez vous permettre des actions due \xE0 ce surplus de ressources."
+    - The weather has been beneficial to your farms and fields, you can afford actions
+      due to this surplus of resources.
   choiceList:
   - {fileID: 11400000, guid: f2a5dc5b1d979f44abaf671ed22dc132, type: 2}
   - {fileID: 11400000, guid: eb6d4082852216a448fbbb272348af5d, type: 2}

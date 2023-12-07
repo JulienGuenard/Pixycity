@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: People Mop Up
     spriteIcon: {fileID: -6785151680191660781, guid: 643cf63e5f7fab145bc5ae15aa188784, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Vous mettez enfin le nez dans vos probl\xE8mes."
+    - You finally put your nose in your problems.
+    tooltipIcon:
+    - "A vos \xE9ponges et vos serviettes, on va d\xE9barasser ces rues de nos merdes
+      !"
+    - Grab your sponges and towels, we're going to rid these streets of our shit
+      !
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Extend Culture
     spriteIcon: {fileID: -5265939728350010602, guid: e15e80252e1edfc4480ef3dbafd7f157, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Les peuples veulent conna\xEEtre les joies qu'apportent votre culture."
+    - People want to know the joys that your culture brings.
+    tooltipIcon:
+    - La foi vous procure tellement de bienfaits qu'il serait idiot de ne pas en
+      faire profiter les autres.
+    - Faith brings you so many benefits that it would be foolish not to share it
+      with others.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

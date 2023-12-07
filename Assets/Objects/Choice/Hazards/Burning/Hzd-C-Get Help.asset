@@ -15,8 +15,12 @@ MonoBehaviour:
   infos:
     name: Get Help
     spriteIcon: {fileID: 3225558199839388120, guid: 506b22ad32832d143b243f17523c9735, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - Un peu d'argent et on en parle plus.
+    - A little money and we don't talk about it anymore.
+    tooltipIcon:
+    - "N'ayez pas honte de demander l'aide d'une cit\xE9 voisine."
+    - Don't be ashamed to ask help of a neighboring city.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Throwing Axes
     spriteIcon: {fileID: -8095760989209913711, guid: 00812224e9425374bb91972b3ed994ae, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "La premi\xE8re ann\xE9e, il faut r\xE9ussir \xE0 planter la hache, puis les
+      suivantes, dans la cible."
+    - The first year, you must succeed in planting the axe, then the following years,
+      in the target.
+    tooltipIcon:
+    - Lancer de haches sur votre opposant politique ! Euh, sur une cible de bois.
+    - Throw axes at your political opponent! Um... on a wooden target.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

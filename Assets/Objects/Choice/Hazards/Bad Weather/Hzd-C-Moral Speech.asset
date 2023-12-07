@@ -14,9 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Moral Speech
-    spriteIcon: {fileID: -3885334325167084509, guid: 5efd06d131a1d40408ce0437487cca6b, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    spriteIcon: {fileID: 4002788004641572305, guid: adef3e9fb6b803249956b40c1e9d9089, type: 3}
+    tooltipIngame:
+    - "Qu'ils se moquent ou se sentent inspir\xE9 par vous, cela leur fait oubliez
+      leurs autres probl\xE8mes."
+    - Whether they make fun of you or feel inspired, it will make them forget their
+      other problems.
+    tooltipIcon:
+    - "M\xEAme sous la pluie, montrez \xE0 votre peuple que vous \xEAtes comme eux."
+    - Even under the rain, show to your people you're like them
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

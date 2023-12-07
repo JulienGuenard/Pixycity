@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Stock
     spriteIcon: {fileID: 3103727012110555828, guid: 5b44ec24c3691f944bc481e40b28d1ce, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "La farine se stock assez facilement, si vous en avez l'espace pour pas qu'elle
+      ne soit infect\xE9 ou attaqu\xE9 par des bestioles."
+    - Flour is stored quite easily, if you have the space to prevent it from being
+      infected or attacked by critters.
+    tooltipIcon:
+    - "Stockez votre nourriture en exc\xE9dent pour en profiter pendant une plus
+      longue dur\xE9e."
+    - Store your excess food to enjoy it for a longer period of time.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

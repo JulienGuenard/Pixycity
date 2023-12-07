@@ -16,4 +16,9 @@ MonoBehaviour:
     name: 
     spriteIcon: {fileID: 0}
     tooltipIngame: []
-    tooltipIcon: []
+    tooltipIcon:
+    - "La m\xE9t\xE9o influence les \xE9v\xE8nements qui peuvent se produire. Une
+      combinaison de m\xE9t\xE9o est n\xE9cessaire, et cela d\xE9pend aussi des b\xE2timents
+      que vous construisez."
+    - The weather influences the events that can occur. A combination of weather
+      is needed, and it also depends on the buildings you are building.

@@ -16,4 +16,6 @@ MonoBehaviour:
     name: 
     spriteIcon: {fileID: 0}
     tooltipIngame: []
-    tooltipIcon: []
+    tooltipIcon:
+    - La nourriture que peut consommer vos habitants.
+    - The food your inhabitants can eat.

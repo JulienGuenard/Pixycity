@@ -16,4 +16,6 @@ MonoBehaviour:
     name: 
     spriteIcon: {fileID: 0}
     tooltipIngame: []
-    tooltipIcon: []
+    tooltipIcon:
+    - "Les r\xEAves de vos habitants repr\xE9sentent leur foi en l'avenir."
+    - Your residents' dreams represent their faith in the future.

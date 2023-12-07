@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Promote City
     spriteIcon: {fileID: -6657250826537805733, guid: da43f1cdbae6ca8469a4a4948c47ec50, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Certaines personnes arrivent m\xEAme en condor en or tellement ils veulent
+      voir votre cit\xE9, le monde est fou."
+    - Some people even arrive in golden condors because they want to see your city,
+      the world is crazy.
+    tooltipIcon:
+    - "Vous pouvez enfin devenir une des myst\xE9rieuses cit\xE9s d'or, l'important
+      c'est que les autres le sachent !"
+    - You can finally become one of the mysterious cities of gold, the important
+      thing is that others know it !
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

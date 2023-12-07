@@ -15,8 +15,13 @@ MonoBehaviour:
   infos:
     name: Burning Clouds
     spriteIcon: {fileID: 3227426110939739223, guid: 8fdec115589877e419bc998f7193c0e7, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "D'habitude les nuages orang\xE9s sont synonyme d'un beau coucher de soleil...
+      d'habitude"
+    - Usually orange clouds are synonymous with a beautiful sunset... usually.
+    tooltipIcon:
+    - A force de prier la montagne, vous ne vous regardez plus le ciel.
+    - By praying to the mountain, you no longer look at the sky.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Regrowth
     spriteIcon: {fileID: 9021164959880380365, guid: cbbb14bb1447f884187512a1fee51548, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Vos habitants ont le coeur \xE0 replanter durant cette saison."
+    - Your residents have the heart to replant during this season.
+    tooltipIcon:
+    - "Vous avez bien produit ? Une opportunit\xE9 de produire encore plus alors
+      ! Enfin de toute fa\xE7ons tout est une opportunit\xE9 \xE0 produire plus."
+    - Did you produce well? An opportunity to produce even more then ! Well, in any
+      case, everything is an opportunity to produce more.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

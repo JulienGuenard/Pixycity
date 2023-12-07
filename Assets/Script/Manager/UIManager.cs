@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -39,6 +40,15 @@ public class UIManager : MonoBehaviour
     {
         get { return dreamText; }
         set { dreamText = value; }
+    }
+    #endregion
+
+    #region Meteo
+    [SerializeField] private Image meteoCurrent;
+    public Image MeteoCurrent
+    {
+        get { return meteoCurrent; }
+        set { meteoCurrent = value; }
     }
     #endregion
 

@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Vanish
     spriteIcon: {fileID: 3539756053897352277, guid: 4f5a06992554ebd44be9817747ee2179, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Des disparitions inattendues ont myst\xE9rieusement lieu."
+    - Unexpected disappearances mysteriously take place.
+    tooltipIcon:
+    - "Le ciel rouge\xE2tre vous semble normal, les yeux rouges des habitants non
+      plus, vous laissez faire."
+    - The reddish sky seems normal to you, the red eyes of the inhabitants don't
+      either, you let it happen.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

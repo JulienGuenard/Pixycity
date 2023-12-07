@@ -15,8 +15,13 @@ MonoBehaviour:
   infos:
     name: Party
     spriteIcon: {fileID: 1332512238897480680, guid: 9bd412f05966e454aaa259f3cd2f8ab5, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "La f\xEAte est au rendez-vous, des cotillons de partout ! wouuuu !"
+    - The party is here, party favors everywhere ! wouuuuuu !
+    tooltipIcon:
+    - "Toutes les conditions sont r\xE9unis pour tenir une bonne f\xEAte qui rendra
+      tout le monde heureux."
+    - All the conditions are there to hold a good party that will make everyone happy.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: New Vein
     spriteIcon: {fileID: -907882543145479677, guid: d33faa487a4208742b7680ad0b1728bf, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "A force de miner, il arrive que ce soit le gros lot, et ce moment est enfin
+      arriv\xE9 ! Les mineurs en seront r\xE9compens\xE9s, et vous aussi."
+    - By dint of mining, it happens that it is the jackpot, and this moment has finally
+      arrived! The miners will be rewarded, and so will you.
   choiceList:
   - {fileID: 11400000, guid: e071d24c2a8aa9f4cb4ef38326303056, type: 2}
   - {fileID: 11400000, guid: 707d0745d1fd52246934bcd23a8a9ada, type: 2}

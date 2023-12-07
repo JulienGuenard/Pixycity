@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Enjoy The Lucky Star
     spriteIcon: {fileID: -5749142897554680516, guid: bd736c902f8ca0a488e633689556ae15, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "La chance sourit \xE0 votre peuple, et vous semblez ne manquer de rien."
+    - Luck favors your people, and you seem to lack nothing.
+    tooltipIcon:
+    - "Vous la voyez cette \xE9toile qui brille plus forte que les autres ? Profitez-en,
+      mais oui c'est clair !"
+    - Do you see this star that shines brighter than the others ? Enjoy it, its simple
+      !
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

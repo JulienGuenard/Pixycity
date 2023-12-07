@@ -15,8 +15,12 @@ MonoBehaviour:
   infos:
     name: Export
     spriteIcon: {fileID: -3400611273495311251, guid: 42c2c5616d7382a43ae1e142f264420f, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Le commerce vous est profitable \xE0 votre porte-monnaie."
+    - Trading is profitable to your wallet.
+    tooltipIcon:
+    - "Profitez de cette abondance pour en \xE9changer aux voisins."
+    - Profit of this abundance to trade with your neighbours.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

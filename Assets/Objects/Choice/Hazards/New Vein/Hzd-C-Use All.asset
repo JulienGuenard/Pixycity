@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Use All
     spriteIcon: {fileID: 1100265506730601175, guid: 1489b782475c8f049bba8643dac017b2, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Ce filon permet \xE0 la fois d'aider \xE0 la construction et \xE0 l'achat
+      de nouveaux mat\xE9riaux."
+    - This vein helps both with construction and with the purchase of new materials.
+    tooltipIcon:
+    - "C'est comme un gros g\xE2teau dans votre mine, coupez en plusieurs part pour
+      faire grossir chaque construction."
+    - It's like a big cake in your mine, cut into several pieces to make each construction
+      bigger.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Protect Childs
     spriteIcon: {fileID: -4671314378456420023, guid: 6130aa331f6e6574c8ed63a14e422f23, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "La temp\xEAte et vos jets d'enfants d\xE9truisent certains b\xE2timents."
+    - The storm and your children's jets destroy some buildings.
+    tooltipIcon:
+    - "Vous prenez par l'\xE9paule chaque enfant et les jetez tel des fus\xE9e chez
+      eux, cela dit votre force peut vous \xE9chapper."
+    - You take each child by the shoulder and throw them home like rockets, but your
+      strength can escape you.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

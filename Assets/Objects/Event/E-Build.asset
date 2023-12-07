@@ -15,7 +15,15 @@ MonoBehaviour:
   infos:
     name: Build
     spriteIcon: {fileID: -2990600256302175830, guid: a113c17737c612c4d873b1e04f9cc84c, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "Construisez le b\xE2timent de votre choix, les prochains changeront dans un
+      cycle d\xE9fini. L'un des prochains b\xE2timent sera un b\xE2timent du m\xEAme
+      type que celui pr\xE9c\xE9demment construit, mais en mieux."
+    - Build the building of your choice, the next ones will change in a defined cycle.
+      One of the next buildings will be a building of the same type as the one previously
+      built, but better.
   choiceList:
   - {fileID: 11400000, guid: 497ec06550cb97142bb61fde960c1f4a, type: 2}

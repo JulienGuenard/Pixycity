@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Good Weather
     spriteIcon: {fileID: 4757929910062246499, guid: ac0095ebda361e04fb3b15613c4165ad, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "Un bon temps est synonyme de plus d'\xE9nergie, de plus de confiance de la
+      part de vos citoyens, et ils ont tr\xE8s envie de faire avancer les choses
+      aujourd'hui."
+    - Good times mean more energy, more confidence from your citizens, and they are
+      eager to get things done today.
   choiceList:
   - {fileID: 11400000, guid: 5b211195fc5ee9045b637905f7a16f82, type: 2}
   - {fileID: 11400000, guid: 0a915a71adce9374bbe7c2529176aced, type: 2}

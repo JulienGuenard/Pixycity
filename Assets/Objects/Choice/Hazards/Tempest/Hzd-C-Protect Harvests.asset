@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Protect Harvests
     spriteIcon: {fileID: -4492129321925215592, guid: a223897d31cc1084086f405991103f43, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Au grand mot les grands moyens, le sol est jonch\xE9 de vos habitants, m\xEAme
+      vous, vous \xEAtes couch\xE9 sur votre bonsa\xEF chez vous."
+    - By big words, big means, the ground is littered with your inhabitants, even
+      you are lying on your bonsai at home.
+    tooltipIcon:
+    - "Pour prot\xE9ger vos champs, vous ordonnez \xE0 tous les habitants de se coucher
+      sur les r\xE9coltes."
+    - To protect your fields, you order all the inhabitants to lie down on the crops.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

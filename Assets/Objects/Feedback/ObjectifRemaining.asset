@@ -16,4 +16,10 @@ MonoBehaviour:
     name: 
     spriteIcon: {fileID: 0}
     tooltipIngame: []
-    tooltipIcon: []
+    tooltipIcon:
+    - "Il vous reste tous ces objectifs \xE0 atteindre. Lorsque vous en compl\xE9tez
+      un, d'autres se d\xE9bloquent, cependant il est possible d'en compl\xE9ter
+      plusieurs en une session m\xEAme si ce ne sont celles actuellement en cours."
+    - You still have all these goals to achieve. When you complete one, others are
+      unlocked, however it is possible to complete several in one session even if
+      they are not the ones currently in progress.

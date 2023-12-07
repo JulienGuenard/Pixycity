@@ -15,8 +15,12 @@ MonoBehaviour:
   infos:
     name: Climbing
     spriteIcon: {fileID: 2105485454465103802, guid: e06d48bd049eb5f42994b426761e4238, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - A vos grappins ! C'est parti !
+    - On your grappling hooks ! Let's go !
+    tooltipIcon:
+    - Vos habitants veulent savoir qui monte le plus haut cette montagne.
+    - Your inhabitants want to know who climbs this mountain the highest.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

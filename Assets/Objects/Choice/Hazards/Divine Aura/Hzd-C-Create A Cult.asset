@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Create A Cult
     spriteIcon: {fileID: -3876375207650833746, guid: a213944a9dc00a345b6629040fd685f6, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Vous apportez un sens \xE0 la vie de vos concitoyens."
+    - You bring meaning to the lives of your fellow citizens.
+    tooltipIcon:
+    - "La branche par terre est plut\xF4t jolie, puis l\xE0 vous vous dites : je
+      serais leur guide !"
+    - 'The branch on the ground is rather pretty, then you say to yourself: I will
+      be their guide !'
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

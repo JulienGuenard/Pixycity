@@ -15,8 +15,12 @@ MonoBehaviour:
   infos:
     name: Pay More
     spriteIcon: {fileID: -3885334325167084509, guid: 5efd06d131a1d40408ce0437487cca6b, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "L'argent colmate les trous et enl\xE8ve les mauvaises herbes, comme par magie."
+    - Money patch holes and remove weeds, as if by magic.
+    tooltipIcon:
+    - "Vous en avez les moyens ? R\xE9parer tout gr\xE2ce \xE0 l'argent !"
+    - You have the funds ? Repair everything thanks to money !
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

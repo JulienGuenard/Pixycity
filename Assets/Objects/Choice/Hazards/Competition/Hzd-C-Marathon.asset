@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Throwing Axes
     spriteIcon: {fileID: 3640699454765091261, guid: a5af7a22dc5c1b24180b13e4217fcebc, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - Courrez pour votre vie ! Ou bien courrez pour avoir la forme !
+    - Run for your life ! Or run to get in shape !
+    tooltipIcon:
+    - "Les meilleurs athl\xE8tes vont concourir, il va leur falloir bien se nourrir
+      pour accomplir des prouesses."
+    - The best athletes are going to compete, they will need to eat well to achieve
+      feats.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

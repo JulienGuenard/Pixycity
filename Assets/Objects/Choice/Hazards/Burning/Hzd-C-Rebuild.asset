@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Rebuild
     spriteIcon: {fileID: -1913486470695358803, guid: adb6f33fda2d4b347b932f5442bca1bd, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - Vos constructions renaissent de leurs cendres.
+    - Your buildings reborn from their ashes.
+    tooltipIcon:
+    - "Citoyens ! Prenez tout le bois de la r\xE9serve et reconstruisez \xE7a sur
+      les cendres... euh attendez !"
+    - Citizens ! Take all the wood on the reserve and rebuild everything on the ashes...
+      uh wait !
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

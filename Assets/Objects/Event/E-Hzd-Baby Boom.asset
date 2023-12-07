@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Baby Boom
     spriteIcon: {fileID: -5225316021991392235, guid: d5a3f8687ce6d964bb2847d90082c49f, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - Il arrive des fois que votre peuple se sentent tellement bien dans votre ville
+      qu'ils vous le rendent avec joie avec de nouveaux travailleurs.
+    - Sometimes your people feel so good in your city that they happily return it
+      with new workers.
   choiceList:
   - {fileID: 11400000, guid: 82da2e72d437f3246bf90fd5aa483fa0, type: 2}
   - {fileID: 11400000, guid: a985554847e0098459ecf2f222937b79, type: 2}

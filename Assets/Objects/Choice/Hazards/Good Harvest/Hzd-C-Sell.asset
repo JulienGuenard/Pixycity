@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Sell
     spriteIcon: {fileID: -7666959724384103273, guid: 1bb8dae8f33154c46aee5c660b7a525e, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Techniquement, est-il plus dur de ramasser du bl\xE9 et d'en faire de la farine,
+      ou bien de trouver et de ramasser de l'or ?"
+    - Technically, is it harder to collect wheat and make flour from it, or to find
+      and collect gold ?
+    tooltipIcon:
+    - Vendez votre dur labeur contre une labeur encore plus dur et qui brille.
+    - "Sell \u200B\u200Byour hard work for even harder, shiny work."
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

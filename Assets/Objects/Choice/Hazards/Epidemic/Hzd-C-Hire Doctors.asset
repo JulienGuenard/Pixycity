@@ -15,8 +15,13 @@ MonoBehaviour:
   infos:
     name: Hire Doctors
     spriteIcon: {fileID: -3826286641397701603, guid: 19508a0d281ebb14c9f6f8b674cfa737, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Les docteurs afflux en masse dans votre ville depuis votre derni\xE8re annonce."
+    - Doctors have been flocking to your city since your last announcement.
+    tooltipIcon:
+    - "Votre village isol\xE9e ne donnera envie aux m\xE9decins de venir qu'avec
+      un peu d'argent."
+    - Your isolated village will only make doctors want to come with a little money.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

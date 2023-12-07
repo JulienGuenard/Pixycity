@@ -15,8 +15,14 @@ MonoBehaviour:
   infos:
     name: Angered Mountain
     spriteIcon: {fileID: -7961688623630183645, guid: 8be63cd49d82b82458f045f28adbcc90, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "La montagne gronde, ce n'est quand m\xEAme pas un volcan, mais de nombreux
+      rochers s'effritent et vous tombent dans la gueule."
+    - "The mountain roars, it's not a volcano, but many rocks crumble and fall into
+      your mouth.\r"
+    tooltipIcon:
+    - Oui vous pouvez rendre furieux la montagne, insultez la et vous verrez.
+    - Yes you can make the mountain furious, insult it and you will see.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

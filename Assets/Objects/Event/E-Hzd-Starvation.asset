@@ -15,8 +15,16 @@ MonoBehaviour:
   infos:
     name: Starvation
     spriteIcon: {fileID: 1158628774975791520, guid: b96b5a0de6e709844b47ec7e157324cd, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "Quel horreur de voir vos habitants mourir de faim, c'est une des pires choses
+      qu'il puisse arriver. Mais vous \xEAtes leur chef pour cela, ils vous font
+      confiance pour les sauver."
+    - How horrible to see your inhabitants die of hunger, it's one of the worst things
+      that can happen. But you are their leader for this, they trust you to save
+      them.
   choiceList:
   - {fileID: 11400000, guid: a4452f627836d5a4b97772fc943ef538, type: 2}
   - {fileID: 11400000, guid: 5edc2d43f3517ee488ef5833adb94a73, type: 2}

@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Regrowth
     spriteIcon: {fileID: -526412829193518718, guid: 730d56ae947072c429b930c8d8199484, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Malgr\xE9 de nombreuses terres craquel\xE9s, certains endroits prennent encore
+      vie."
+    - Despite many cracked lands, some places still come to life.
+    tooltipIcon:
+    - Difficile de replanter, mais si vous vous y mettez tous, vous trouverez bien
+      des endroits encore humide.
+    - Difficult to replant, but if you all try, you will find many places that are
+      still damp.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

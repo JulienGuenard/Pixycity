@@ -15,8 +15,13 @@ MonoBehaviour:
   infos:
     name: Import More Food
     spriteIcon: {fileID: -5957349799637293413, guid: 08b9f38764ce2f5418201eb2cab68554, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Le voisin ne connait aucune intemp\xE9rie, il a toujours ce dont vous avez
+      besoin."
+    - The neighbor doesn't experience any bad weather, he always has what you need.
+    tooltipIcon:
+    - "T\xE9l\xE9phoner \xE0 votre voisin pour vous faites bombarder de saucisson."
+    - Call your neighbor to get pelted with sausage.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

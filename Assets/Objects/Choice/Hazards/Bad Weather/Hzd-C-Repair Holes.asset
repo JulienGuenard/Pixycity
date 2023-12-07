@@ -15,8 +15,13 @@ MonoBehaviour:
   infos:
     name: Repair Holes
     spriteIcon: {fileID: -3239166221535740483, guid: 4c2034390341cb64c9b08aaf2c98e9f7, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Abracadabra, que les marteaux r\xE9parent tout !"
+    - Abracadabra, let the hammers repair everything !
+    tooltipIcon:
+    - Prenez votre marteau, et fichez le dans l'trou ! Ou laissez vos citoyens s'en
+      servir.
+    - Take your hammer, and put it in the hole ! Or let your citizens use it.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

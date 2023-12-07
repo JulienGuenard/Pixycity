@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Drought
     spriteIcon: {fileID: -853389448840904138, guid: 6a1e295281d21954aa25e5903ae0f675, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - 
+    - 
+    tooltipIcon:
+    - "Tant de soleil m\xE8ne la terre \xE0 se d\xE9ssecher, et malheureusement votre
+      population est la suivante dans ce cas, il va falloir y rem\xE9dier au plus
+      vite."
+    - So much sun leads the earth to dry out, and unfortunately your population is
+      next in this case, it will have to be remedied as quickly as possible.
   choiceList:
   - {fileID: 11400000, guid: adda001b23c698b47abeea0b67d74f67, type: 2}
   - {fileID: 11400000, guid: ee272f9105002cd44ba8721248653969, type: 2}

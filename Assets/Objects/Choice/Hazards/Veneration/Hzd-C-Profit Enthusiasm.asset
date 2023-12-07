@@ -15,8 +15,15 @@ MonoBehaviour:
   infos:
     name: Profit Enthusiasm
     spriteIcon: {fileID: -1368375174144253352, guid: cb256a81588dbca45b73ae18745a9339, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "Il n'y a rien \xE0 faire ! Votre population adore v\xE9n\xE9rez la nature
+      et le paysage dont fait l'objet la cit\xE9."
+    - There is nothing to do ! Your population loves and worships the nature and
+      landscape of the city.
+    tooltipIcon:
+    - "Le peuple est content, alors, vous \xEAtes content, l'important c'est d'\xEAtre
+      content."
+    - The people are happy, so you are happy, the important thing is to be happy.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

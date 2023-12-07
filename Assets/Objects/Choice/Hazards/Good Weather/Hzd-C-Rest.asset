@@ -15,8 +15,12 @@ MonoBehaviour:
   infos:
     name: Rest
     spriteIcon: {fileID: -5281924671501368260, guid: 4556b960b93f1df408086a74a8e23951, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - Dormir ou dormir, telle est la question.
+    - To sleep or to sleep, that is the question.
+    tooltipIcon:
+    - "Un peu de repos pour votre population les fera dig\xE9rer."
+    - A little rest for your population will help them digest.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

@@ -16,4 +16,6 @@ MonoBehaviour:
     name: 
     spriteIcon: {fileID: 0}
     tooltipIngame: []
-    tooltipIcon: []
+    tooltipIcon:
+    - "De l'argent sous formes de liasses et d'or que vous pouvez \xE9changer."
+    - Money in the form of bundles and gold that you can exchange.

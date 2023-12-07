@@ -15,8 +15,12 @@ MonoBehaviour:
   infos:
     name: Irrigate
     spriteIcon: {fileID: -246984614443279921, guid: 74ae5a32cac51fe41b6b5906ea06efe9, type: 3}
-    tooltipIngame: 
-    tooltipIcon: 
+    tooltipIngame:
+    - "La s\xE9cheresse ne sera bient\xF4t plus gr\xE2ce votre syst\xE8me ing\xE9nieux."
+    - The drought will soon be no more thanks to your ingenious system.
+    tooltipIcon:
+    - Creusez de grandes rigoles pour que l'eau apporte la vie en ces lieux.
+    - Dig large channels so that the water brings life to these places.
   building:
     buildingSprite: {fileID: 0}
     buildingNextTier: {fileID: 0}

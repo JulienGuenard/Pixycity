@@ -16,4 +16,7 @@ MonoBehaviour:
     name: 
     spriteIcon: {fileID: 0}
     tooltipIngame: []
-    tooltipIcon: []
+    tooltipIcon:
+    - "Les \xE9v\xE8nements et m\xE9t\xE9o sont souvent calibr\xE9s autour du timer
+      ingame."
+    - Events and weather are often calibrated around the ingame timer.
