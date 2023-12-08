@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Gatherer Marathon
-    spriteIcon: {fileID: -1012896415740153457, guid: 39cf8372a632963449e9710e3c978231, type: 3}
+    spriteIcon: {fileID: -8544608218018212810, guid: 16e6d0f5641eb654fa645efe350d9b74, type: 3}
     tooltipIngame:
     - "Le sportifs et les collectionneurs \xE9taient autrefois des sous cat\xE9gories
       des cueilleurs. Tant de fiert\xE9 \xE0 mettre de l'effort \xE0 trouver le fruit

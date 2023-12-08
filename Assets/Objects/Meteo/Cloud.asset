@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Cloud
   m_EditorClassIdentifier: 
   infos: {fileID: 11400000, guid: 73a651c7e83eb6149bb14af69c2ff009, type: 2}
-  meteo: 2
+  meteo: 1

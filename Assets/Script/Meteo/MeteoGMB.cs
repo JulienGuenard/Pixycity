@@ -10,6 +10,7 @@ public class MeteoGMB : MonoBehaviour
     [SerializeField] private Image meteoImage;
     [SerializeField] private MeteoObject meteoObject;
     [SerializeField] private RectTransform rectBorder;
+    [SerializeField] private TooltipTrigger tooltip;
     private RectTransform rect;
     #endregion
 
@@ -26,6 +27,7 @@ public class MeteoGMB : MonoBehaviour
         { 
             meteoObject = value;
             MeteoImage.sprite = value.infos.infos.spriteIcon;
+            tooltip.feedback = value.infos;
         }
     }
     public RectTransform RectBorder

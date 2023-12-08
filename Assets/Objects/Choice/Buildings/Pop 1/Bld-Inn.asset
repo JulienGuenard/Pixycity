@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Inn
-    spriteIcon: {fileID: -9024109174665516115, guid: c94bba664ac35e64eb4e2657df593c29, type: 3}
+    spriteIcon: {fileID: -3503076145065086755, guid: 5259e613cdd0f5943965e423012de583, type: 3}
     tooltipIngame:
     - "L'aubergiste raconte partout que le maire de la ville (vous) est mari\xE9
       \xE0 un rocher perdu dans la montagne."
@@ -26,7 +26,7 @@ MonoBehaviour:
     - The innkeeper can offer beer, beds and rumors, what better to aliment your
       city in citizens.
   building:
-    buildingSprite: {fileID: -3503076145065086755, guid: 5259e613cdd0f5943965e423012de583, type: 3}
+    buildingSprite: {fileID: -9024109174665516115, guid: c94bba664ac35e64eb4e2657df593c29, type: 3}
     buildingNextTier: {fileID: 11400000, guid: dcc05d0f84e9cb44d863342feca69e6b, type: 2}
   slot:
     specificSlotID: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Gatherer Hut
-    spriteIcon: {fileID: -4979279963414248358, guid: fae7522a3a1ce1d4994f69ab2d03051e, type: 3}
+    spriteIcon: {fileID: -2177202882168316192, guid: 1fbf4b4aec329c5449caed96e40d69a0, type: 3}
     tooltipIngame:
     - "\"Mangez des pommes\" - Le Cueilleur le plus L\xE9gendaire en son temps."
     - '"Eat apples" - The Most Legendary Gatherer in his Era..'
@@ -22,7 +22,7 @@ MonoBehaviour:
     - "Chasseur cueilleur, le m\xE9tier le plus rentable pour sa propre survie."
     - Hunter gatherer, the most profitable job pour his own survival.
   building:
-    buildingSprite: {fileID: -2177202882168316192, guid: 1fbf4b4aec329c5449caed96e40d69a0, type: 3}
+    buildingSprite: {fileID: -4979279963414248358, guid: fae7522a3a1ce1d4994f69ab2d03051e, type: 3}
     buildingNextTier: {fileID: 11400000, guid: cc7ea3c4471cd024d8e80379453d1558, type: 2}
   slot:
     specificSlotID: 0

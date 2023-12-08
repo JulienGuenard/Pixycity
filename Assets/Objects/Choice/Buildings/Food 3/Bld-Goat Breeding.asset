@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Goat Breeding
-    spriteIcon: {fileID: -6232586167708473518, guid: a5a44c7ebbd222f43b0997aba76d1763, type: 3}
+    spriteIcon: {fileID: -6460448708212565094, guid: 4566c8ea7a6a7dd40a4a90942c7fe6e0, type: 3}
     tooltipIngame:
     - "Si vous commencez \xE0 couper les cornes de vos boucs, le jeu commencera \xE0
       devenir hostile et \xE0 \xE9lectrocuter votre ordinateur. (Hein ? Mais votre
@@ -28,7 +28,7 @@ MonoBehaviour:
     - Your goats will produce some very good milk, which will strengthens your bones.
       You could even build bones with milk ! (of course yes !)
   building:
-    buildingSprite: {fileID: -6460448708212565094, guid: 4566c8ea7a6a7dd40a4a90942c7fe6e0, type: 3}
+    buildingSprite: {fileID: -6232586167708473518, guid: a5a44c7ebbd222f43b0997aba76d1763, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 22526dca5507f3b47bbaf157771c9a7d, type: 2}
   slot:
     specificSlotID: 0

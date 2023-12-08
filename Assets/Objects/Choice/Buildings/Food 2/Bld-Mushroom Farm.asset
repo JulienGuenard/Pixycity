@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Mushroom Farm
-    spriteIcon: {fileID: 4895964847202973330, guid: 4754c711d4ccc434b9e897c9096038c3, type: 3}
+    spriteIcon: {fileID: -6743695642315157462, guid: e96a17106e77d63498dea1906586c4ae, type: 3}
     tooltipIngame:
     - "Les champignons pourraient contr\xF4ler le monde un jour, ils n'h\xE9sitent
       pas \xE0 infiltrer les rangs des fourmis en faisant cro\xEEtre un champignon

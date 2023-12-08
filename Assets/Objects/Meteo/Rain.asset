@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Rain
   m_EditorClassIdentifier: 
   infos: {fileID: 11400000, guid: d56882b306d028c429b79b315a17e6d6, type: 2}
-  meteo: 3
+  meteo: 2

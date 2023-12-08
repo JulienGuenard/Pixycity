@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Vase Stand
-    spriteIcon: {fileID: 860972149858372267, guid: 5e59fba6d1f4111498a9f13ae7016652, type: 3}
+    spriteIcon: {fileID: 418931795498765448, guid: c4eb0d431da4cf643876cf862f8efb0f, type: 3}
     tooltipIngame:
     - Qui sait ce qu'il peut se cacher dans un vase, un artiste de renom ou bien
       un apprenti artisan.
@@ -25,7 +25,7 @@ MonoBehaviour:
     - The citizens has learnt to make some vases between themselves... too much vases
       ! They'll like to sell them and profit to you.
   building:
-    buildingSprite: {fileID: 418931795498765448, guid: c4eb0d431da4cf643876cf862f8efb0f, type: 3}
+    buildingSprite: {fileID: 860972149858372267, guid: 5e59fba6d1f4111498a9f13ae7016652, type: 3}
     buildingNextTier: {fileID: 11400000, guid: f1f4f515db97ec24c8cd0420af754c7c, type: 2}
   slot:
     specificSlotID: 0

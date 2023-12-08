@@ -10,6 +10,7 @@ public class EventGMB : MonoBehaviour
     [SerializeField] private TextMeshProUGUI title;
     [SerializeField] private Image eventImage;
     private RectTransform rect;
+    private EventObject eventObj;
 
     [SerializeField] private List<ChoiceGMB> choiceGMBList;
     #endregion
@@ -29,6 +30,11 @@ public class EventGMB : MonoBehaviour
     {
         get { return rect; }
         set { rect = value; }
+    }
+    public EventObject EventObj
+    {
+        get { return eventObj; }
+        set { eventObj = value; }
     }
 
     public List<ChoiceGMB> ChoiceGMBListGet()

@@ -17,5 +17,5 @@ MonoBehaviour:
     spriteIcon: {fileID: 0}
     tooltipIngame: []
     tooltipIcon:
-    - "Le nombre d'habitants qui peuplent votre cit\xE9."
+    - "Le nombre d'habitants qui peuple votre cit\xE9."
     - The number of inhabitants who populate your city.

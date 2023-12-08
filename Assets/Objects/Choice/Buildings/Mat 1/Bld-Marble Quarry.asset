@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Marble Quarry
-    spriteIcon: {fileID: -4515735186236542027, guid: 27cb5d5d6f632a54a9ad899108a81c17, type: 3}
+    spriteIcon: {fileID: -105813315505215614, guid: 2d8b72c12b6879e468ce5cb3749d0666, type: 3}
     tooltipIngame:
     - "Seuls vos nobles ont le droit d'avoir des constructions v\xEAtu de marbre,
       ni m\xEAme vos montagnes."
@@ -26,7 +26,7 @@ MonoBehaviour:
     - You already use stone for your constructions, its good to vary a bit their
       supply.
   building:
-    buildingSprite: {fileID: -105813315505215614, guid: 2d8b72c12b6879e468ce5cb3749d0666, type: 3}
+    buildingSprite: {fileID: -4515735186236542027, guid: 27cb5d5d6f632a54a9ad899108a81c17, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 948167abca3ef834aa2a351fdf61f9e4, type: 2}
   slot:
     specificSlotID: 0

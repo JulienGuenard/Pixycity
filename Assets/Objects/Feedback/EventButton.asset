@@ -9,8 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 556528c92e495ff47afbf924f87bac63, type: 3}
-  m_Name: None
+  m_Script: {fileID: 11500000, guid: 20a6d80e0fc7b6c4583a7b3108fab737, type: 3}
+  m_Name: EventButton
   m_EditorClassIdentifier: 
-  infos: {fileID: 11400000, guid: 534972c4b06fe6a41803d1cd54e8a2fc, type: 2}
-  meteo: 3
+  infos:
+    name: 
+    spriteIcon: {fileID: 0}
+    tooltipIngame: []
+    tooltipIcon:
+    - 
+    - 

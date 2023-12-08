@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Mansions
-    spriteIcon: {fileID: -7750332948236953760, guid: 9bf71e07263679b428904c3c768ff963, type: 3}
+    spriteIcon: {fileID: 9057235281425466282, guid: 507564b7f2f79ad4b9bb0818fefbfb0c, type: 3}
     tooltipIngame:
     - "Les pi\xE8ces de la maison du propri\xE9taire sert aux invit\xE9s, mais justement,
       vous en avez plein \xE0 lui convier !"
@@ -24,7 +24,7 @@ MonoBehaviour:
     - "Chaque maisons est constitu\xE9 d'au moins 20 pi\xE8ces."
     - Each houses is constituted of at least 20 rooms.
   building:
-    buildingSprite: {fileID: 9057235281425466282, guid: 507564b7f2f79ad4b9bb0818fefbfb0c, type: 3}
+    buildingSprite: {fileID: -7750332948236953760, guid: 9bf71e07263679b428904c3c768ff963, type: 3}
     buildingNextTier: {fileID: 0}
   slot:
     specificSlotID: 0

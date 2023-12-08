@@ -9,10 +9,12 @@ public class MeteoManager : MonoBehaviour
     #region Variables
     [SerializeField] private int meteoTimelineLimit;
     [SerializeField] private MeteoObject meteoCurrent;
+    private bool meteoHasChanged = false;
 
     [SerializeField] private float scrollX;
     [SerializeField] private float scrollXSpeed;
-    [SerializeField] private float scrollXMinAutoMoveAbove;
+    [SerializeField] private float scrollXMinAutoMoveAtLast;
+    [SerializeField] private float scrollXMinCurrent;
     private float scrollXSpeedActual = 1f;
     private float scrollXActual;
     #endregion
@@ -113,13 +115,14 @@ public class MeteoManager : MonoBehaviour
             meteoGMB.Rect.anchorMin -= new Vector2(scrollXSpeedActual, 0);
             meteoGMB.Rect.anchorMax -= new Vector2(scrollXSpeedActual, 0);
 
-            if (meteoGMB.Rect.anchorMin.x <= scrollXMinAutoMoveAbove) meteoGMBBelow = meteoGMB;
+            if (meteoGMB.Rect.anchorMin.x <= scrollXMinAutoMoveAtLast) meteoGMBBelow = meteoGMB;
+            if (meteoGMB.Rect.anchorMin.x <= scrollXMinCurrent) MeteoNew_Current(meteoGMB);
         }
 
         if (meteoGMBBelow == null) return;
 
         MeteoGoAbove(meteoGMBBelow);
-        MeteoNew(meteoGMBBelow);
+        MeteoNew_Next(meteoGMBBelow);
     }
 
     public void MeteoGoAbove(MeteoGMB meteoGMB)
@@ -131,14 +134,9 @@ public class MeteoManager : MonoBehaviour
         MeteoGMBListGet().Insert(0, meteoGMB);
     }
 
-    void MeteoNew(MeteoGMB meteoGMB)
-    {
-        MeteoNew_Current(meteoGMB);
-        MeteoNew_Next(meteoGMB);
-    }
-
     void MeteoNew_Next(MeteoGMB meteoGMB)
     {
+        meteoHasChanged = false;
         meteoGMB.MeteoObject = meteoObjList[Random.Range(0, meteoObjList.Count)];
     }
 
@@ -152,6 +150,10 @@ public class MeteoManager : MonoBehaviour
 
     void MeteoNew_Current(MeteoGMB meteoGMB)
     {
+        if (meteoHasChanged) return;
+
+        meteoHasChanged = true;
+
         MeteoObject previousMeteo = meteoCurrent;
         meteoCurrent = meteoGMB.MeteoObject;
         UIManager.instance.MeteoCurrent.sprite = meteoCurrent.infos.infos.spriteIcon;

@@ -1,1 +1,1 @@
-public enum EnumMeteo { None, Sun, Cloud, Rain }
+public enum EnumMeteo { Sun, Cloud, Rain, None }

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Woodcutter
-    spriteIcon: {fileID: -5102152870391267515, guid: db0d5e3b644a6e54290b7f5479743510, type: 3}
+    spriteIcon: {fileID: 2583496529232392420, guid: e57bed595e1cf304abbd71f1ae577bf3, type: 3}
     tooltipIngame:
     - "A force de couper du bois, vos b\xFBcherons deviendront de vrais chirurgiens
       de la nature, mais il vaut mieux laisser \xE0 vos planteurs laisser le soin
@@ -26,7 +26,7 @@ MonoBehaviour:
       \xE0 venir."
     - Its time to go cut some woods ! You need to be warm for the winters to come.
   building:
-    buildingSprite: {fileID: 2583496529232392420, guid: e57bed595e1cf304abbd71f1ae577bf3, type: 3}
+    buildingSprite: {fileID: -5102152870391267515, guid: db0d5e3b644a6e54290b7f5479743510, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 43028f3a70d9dd146852e9bfee3c9e99, type: 2}
   slot:
     specificSlotID: 0

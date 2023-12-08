@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Chicken Breeding
-    spriteIcon: {fileID: -1830992439990090969, guid: 759db2b1631633b4b8a87a1828d6ec31, type: 3}
+    spriteIcon: {fileID: -381158988884203015, guid: d6d87e66668f16649813ce4dc8f74249, type: 3}
     tooltipIngame:
     - "Du bon poulet fum\xE9 ! Ou des poulets fumeurs pour qu'ils aient la classe."
     - Somme good smocked chicken ! Or smocking chickens so that they becomem the
@@ -26,7 +26,7 @@ MonoBehaviour:
     - A chicken farm could be a very interesting food source, especially if you begin
       to be lazy to hunt giant beasts with teeths.
   building:
-    buildingSprite: {fileID: -381158988884203015, guid: d6d87e66668f16649813ce4dc8f74249, type: 3}
+    buildingSprite: {fileID: -1830992439990090969, guid: 759db2b1631633b4b8a87a1828d6ec31, type: 3}
     buildingNextTier: {fileID: 0}
   slot:
     specificSlotID: 0

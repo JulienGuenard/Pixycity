@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3fc04fffd1734e4cbf016668254ac4c, type: 3}
   m_Name: Hzd-Drought
   m_EditorClassIdentifier: 
-  meteoList: 000000000000000000000000
+  meteoList: 0000000000000000000000000000000000000000
   eventObj: {fileID: 11400000, guid: 684847aecc6742246b09c6ce4e13dc6f, type: 2}

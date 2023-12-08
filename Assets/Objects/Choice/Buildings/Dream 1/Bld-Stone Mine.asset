@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Stone Mine
-    spriteIcon: {fileID: 7918485877483615772, guid: 4fe50140964eb6145af00347b8d4d41c, type: 3}
+    spriteIcon: {fileID: 1369671496958451115, guid: 750ccead0177645488cb9b7667a3f727, type: 3}
     tooltipIngame:
     - "Une de vos premi\xE8re carri\xE8re de pierre. Dire qu'il y a en plus de 5000
       types diff\xE9rents... et si... (non)"

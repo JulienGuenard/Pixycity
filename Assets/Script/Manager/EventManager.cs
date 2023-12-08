@@ -95,6 +95,7 @@ public class EventManager : MonoBehaviour
         List<ChoiceGMB> list = eventGMB.ChoiceGMBListGet();
 
         eventGMB.Title.text = eventOBJ.name;
+        eventGMB.EventObj = eventOBJ;
         eventGMB.EventImage.sprite = eventOBJ.infos.spriteIcon;
         for (int i = 0; i < 3; i++)
         {

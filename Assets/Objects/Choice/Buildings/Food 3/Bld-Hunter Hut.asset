@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Bld-Hunter Hut
-    spriteIcon: {fileID: 536836433575293258, guid: be2f4d312d0bb9e45bd16b9b354408ac, type: 3}
+    spriteIcon: {fileID: -4188771669463034946, guid: 1d8dd1008964ad243b7ec791e859e57b, type: 3}
     tooltipIngame:
     - "Une cor musical de chasse \xE9tait pr\xE9vu d'\xEAtre jou\xE9 durant les chasses,
       mais apr\xE8s plusieurs tests, en 8-bit, cela faisait fuir beaucoup plus loin
@@ -27,7 +27,7 @@ MonoBehaviour:
     - Your hunters will hunt with honor and duty towards your people to nourrish
       them.
   building:
-    buildingSprite: {fileID: -4188771669463034946, guid: 1d8dd1008964ad243b7ec791e859e57b, type: 3}
+    buildingSprite: {fileID: 536836433575293258, guid: be2f4d312d0bb9e45bd16b9b354408ac, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 6170f533a23741f4984b3318a905e2fd, type: 2}
   slot:
     specificSlotID: 0

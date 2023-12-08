@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Master Planter
-    spriteIcon: {fileID: 7543082639197460457, guid: 15cd40cbd427d2f4599f7d702a68cd53, type: 3}
+    spriteIcon: {fileID: -7070514256540698537, guid: 753bbc4d6e606a346bc54298f7f00a8e, type: 3}
     tooltipIngame:
     - "Avant d'\xEAtre auto-centr\xE9, l'Homme avait de vrais diplomates et \xE9missaires
       pour s'arranger avec la nature et ses myst\xE8res."

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Mirror Stand
-    spriteIcon: {fileID: 2024867863176516778, guid: 266dda729224d344380f45c25b0a9cb4, type: 3}
+    spriteIcon: {fileID: -5681356762485293154, guid: 5f411fd4c8c55ff4a93058fe19c22938, type: 3}
     tooltipIngame:
     - "La l\xE9gende veut que le client qui se voit dans le miroir, en face du marchand,
       ne veut pas se voir perdre la face devant lui, et par cons\xE9quent l'ach\xE8te
@@ -28,7 +28,7 @@ MonoBehaviour:
     - It happens, your city want to make a mirror traffic, but it oays off big, rest
       assured !
   building:
-    buildingSprite: {fileID: -5681356762485293154, guid: 5f411fd4c8c55ff4a93058fe19c22938, type: 3}
+    buildingSprite: {fileID: 2024867863176516778, guid: 266dda729224d344380f45c25b0a9cb4, type: 3}
     buildingNextTier: {fileID: 0}
   slot:
     specificSlotID: 0

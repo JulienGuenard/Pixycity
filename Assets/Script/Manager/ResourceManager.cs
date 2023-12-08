@@ -5,6 +5,9 @@ using UnityEngine;
 public class ResourceManager : MonoBehaviour
 {
     #region Variables
+    [Header("Resource Values")]
+    [SerializeField] private float incomeSpeed;
+
     [Header("Population")]
     [SerializeField] private float populationIncome;
     [SerializeField] private float populationMax;
@@ -183,27 +186,27 @@ public class ResourceManager : MonoBehaviour
 
     private void PopulationIncomeUpdate()
     {
-        PopulationCurrent += PopulationIncome;
+        PopulationCurrent += PopulationIncome * incomeSpeed;
     }
 
     private void MoneyIncomeUpdate()
     {
-        MoneyCurrent += MoneyIncome;
+        MoneyCurrent += MoneyIncome * incomeSpeed;
     }
 
     private void FoodIncomeUpdate()
     {
-        FoodCurrent += FoodIncome;
+        FoodCurrent += FoodIncome * incomeSpeed;
     }
 
     private void ToolIncomeUpdate()
     {
-        toolCurrent += toolIncome;
+        ToolCurrent += ToolIncome * incomeSpeed;
     }
 
     private void DreamIncomeUpdate()
     {
-        DreamCurrent += DreamIncome;
+        DreamCurrent += DreamIncome * incomeSpeed;
     }
 
     public bool BuildCheckResources(ChoiceObject choiceObj)

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Stone Houses
-    spriteIcon: {fileID: -7866428157082042899, guid: 213c66a5b78f2b946a220144a055b746, type: 3}
+    spriteIcon: {fileID: 1369671496958451115, guid: 750ccead0177645488cb9b7667a3f727, type: 3}
     tooltipIngame:
     - "Ne vous inqui\xE9tez pas des fissures, vous serez d\xE9j\xE0 mort quand elles
       apparaitront."
@@ -25,7 +25,7 @@ MonoBehaviour:
     - You want more inhabitant ? Bah ! Its simple, just put 50 stones on each side
       and it make an house !
   building:
-    buildingSprite: {fileID: 6266140583062118890, guid: 573cd849242c81040a558388ad2bebb2, type: 3}
+    buildingSprite: {fileID: 7918485877483615772, guid: 4fe50140964eb6145af00347b8d4d41c, type: 3}
     buildingNextTier: {fileID: 11400000, guid: c50ed1c75b4afd2438fe8865b206858d, type: 2}
   slot:
     specificSlotID: 0

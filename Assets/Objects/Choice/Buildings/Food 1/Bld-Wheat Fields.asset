@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Wheat Fields
-    spriteIcon: {fileID: 4658719764800125589, guid: a2ab4bb5847e8c54fa56778b7bca59f5, type: 3}
+    spriteIcon: {fileID: -5362599179080341122, guid: aad1f4deab07de34eb6e86786e76eed1, type: 3}
     tooltipIngame:
     - Des fruits ? non... De la viande ? Non.... DU BLEEEEE !!! Miam Miam !
     - Some fruits ? no... Some meat ? No.... SOME WHEEEEAT !!! Yum yum yum !
@@ -24,7 +24,7 @@ MonoBehaviour:
     - Your citizens need to eat, by snatching all the wheat with their theets of
       course.
   building:
-    buildingSprite: {fileID: -5362599179080341122, guid: aad1f4deab07de34eb6e86786e76eed1, type: 3}
+    buildingSprite: {fileID: 4658719764800125589, guid: a2ab4bb5847e8c54fa56778b7bca59f5, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 798dd5fb089ecc742867eea8811c4ba8, type: 2}
   slot:
     specificSlotID: 1

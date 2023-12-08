@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Sun
   m_EditorClassIdentifier: 
   infos: {fileID: 11400000, guid: aa5a48d5cdb72c24ba88dc25466551d8, type: 2}
-  meteo: 1
+  meteo: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infos:
     name: Coal Mine
-    spriteIcon: {fileID: 68186533771776435, guid: ba98ae9e507a7df4281d50d3251584a9, type: 3}
+    spriteIcon: {fileID: -4314546531603278912, guid: 7dd9274d2b779014f8d5b762b716a0df, type: 3}
     tooltipIngame:
     - "Selon les mondes, on trouve de tr\xE8s bons professeur en g\xE9ologie pour
       trouver du charbon. Vos habitants trouveront du charbon d\xE8s la couche 256
@@ -27,7 +27,7 @@ MonoBehaviour:
     - Your ancestors are a precious resource, profane their tombs then burn them
       to use it !
   building:
-    buildingSprite: {fileID: -4314546531603278912, guid: 7dd9274d2b779014f8d5b762b716a0df, type: 3}
+    buildingSprite: {fileID: 68186533771776435, guid: ba98ae9e507a7df4281d50d3251584a9, type: 3}
     buildingNextTier: {fileID: 11400000, guid: 8821427867366824eaa8a4664ed5ae19, type: 2}
   slot:
     specificSlotID: 0
