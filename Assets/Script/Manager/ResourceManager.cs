@@ -5,6 +5,21 @@ using UnityEngine;
 public class ResourceManager : MonoBehaviour
 {
     #region Variables
+    [Header("Resource Tooltips")]
+    [SerializeField] private List<FeedbackObject> feedbackList;
+    public List<FeedbackObject> FeedbackListGet()
+    {
+        return feedbackList;
+    }
+    public void FeedbackListAdd(FeedbackObject item)
+    {
+        feedbackList.Add(item);
+    }
+    public void FeedbackListRemove(FeedbackObject item)
+    {
+        feedbackList.Remove(item);
+    }
+
     [Header("Resource Values")]
     [SerializeField] private float incomeSpeed;
 
@@ -16,12 +31,20 @@ public class ResourceManager : MonoBehaviour
     public float PopulationIncome
     {
         get { return populationIncome; }
-        set { populationIncome = value; }
+        set 
+        { 
+            populationIncome = value;
+            ResourceListGet()[0].resources.income = populationIncome;
+        }
     }
     public float PopulationMax
     {
         get { return populationMax; }
-        set { populationMax = value; }
+        set 
+        { 
+            populationMax = value;
+            ResourceListGet()[0].resources.max = populationMax;
+        }
     }
     public float PopulationCurrent
     {
@@ -45,6 +68,9 @@ public class ResourceManager : MonoBehaviour
             else populationFree = value;
 
             UIManager.instance.PopulationText.text = Mathf.FloorToInt(populationCurrent).ToString() + "(" + Mathf.FloorToInt(populationFree).ToString() + ")";
+
+            moneyIncome = value;
+            ResourceListGet()[0].resources.popUsed = populationFree;
         }
     }
 
@@ -55,12 +81,20 @@ public class ResourceManager : MonoBehaviour
     public float MoneyIncome
     {
         get { return moneyIncome; }
-        set { moneyIncome = value; }
+        set 
+        { 
+            moneyIncome = value;
+            ResourceListGet()[1].resources.income = moneyIncome;
+        }
     }
     public float MoneyMax
     {
         get { return moneyMax; }
-        set { moneyMax = value; }
+        set 
+        { 
+            moneyMax = value;
+            ResourceListGet()[1].resources.max = moneyMax;
+        }
     }
     public float MoneyCurrent
     {
@@ -82,12 +116,20 @@ public class ResourceManager : MonoBehaviour
     public float FoodIncome
     {
         get { return foodIncome; }
-        set { foodIncome = value; }
+        set 
+        { 
+            foodIncome = value;
+            ResourceListGet()[2].resources.income = foodIncome;
+        }
     }
     public float FoodMax
     {
         get { return foodMax; }
-        set { foodMax = value; }
+        set 
+        { 
+            foodMax = value;
+            ResourceListGet()[2].resources.max = foodMax;
+        }
     }
     public float FoodCurrent
     {
@@ -109,12 +151,20 @@ public class ResourceManager : MonoBehaviour
     public float ToolIncome
     {
         get { return toolIncome; }
-        set { toolIncome = value; }
+        set 
+        { 
+            toolIncome = value;
+            ResourceListGet()[3].resources.income = toolIncome;
+        }
     }
     public float ToolMax
     {
         get { return toolMax; }
-        set { toolMax = value; }
+        set 
+        { 
+            toolMax = value;
+            ResourceListGet()[3].resources.max = toolMax;
+        }
     }
     public float ToolCurrent
     {
@@ -136,12 +186,20 @@ public class ResourceManager : MonoBehaviour
     public float DreamIncome
     {
         get { return dreamIncome; }
-        set { dreamIncome = value; }
+        set 
+        { 
+            dreamIncome = value;
+            ResourceListGet()[4].resources.income = dreamIncome;
+        }
     }
     public float DreamMax
     {
         get { return dreamMax; }
-        set { dreamMax = value; }
+        set 
+        { 
+            dreamMax = value;
+            ResourceListGet()[4].resources.max = dreamMax;
+        }
     }
     public float DreamCurrent
     {
@@ -154,6 +212,20 @@ public class ResourceManager : MonoBehaviour
 
             UIManager.instance.DreamText.text = Mathf.FloorToInt(dreamCurrent).ToString();
         }
+    }
+
+    [SerializeField] private List<ResourceObject> resourceList;
+    public List<ResourceObject> ResourceListGet()
+    {
+        return resourceList;
+    }
+    public void ResourceListAdd(ResourceObject item)
+    {
+        resourceList.Add(item);
+    }
+    public void ResourceListRemove(ResourceObject item)
+    {
+        resourceList.Remove(item);
     }
     #endregion
 
@@ -173,6 +245,20 @@ public class ResourceManager : MonoBehaviour
         FoodCurrent = foodCurrent;
         ToolCurrent = toolCurrent;
         DreamCurrent = dreamCurrent;
+
+        PopulationIncome = populationIncome;
+        MoneyIncome = moneyIncome;
+        FoodIncome = foodIncome;
+        ToolIncome = toolIncome;
+        DreamIncome = dreamIncome;
+
+        PopulationMax = populationMax;
+        MoneyMax = moneyMax;
+        FoodMax = foodMax;
+        ToolMax = toolMax;
+        DreamMax = dreamMax;
+
+        PopulationFree = populationFree;
     }
 
     private void Update()

@@ -1123,7 +1123,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa '
+  m_text: 'Image
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8866f66c3ddfdf3459b659b7d072b67a, type: 2}
   m_sharedMaterial: {fileID: -5999205837803990518, guid: 8866f66c3ddfdf3459b659b7d072b67a, type: 2}
@@ -4975,6 +4977,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804f2a2b59979cd418041b841459ba3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  feedbackList:
+  - {fileID: 11400000, guid: 35085a8f8e60e254393459beb26b459d, type: 2}
+  - {fileID: 11400000, guid: 23dc6020233b10242a2a8d97828d7c06, type: 2}
+  - {fileID: 11400000, guid: 063998966719cba4dadc61c798e28ee4, type: 2}
+  - {fileID: 11400000, guid: 3f87d537d4e0311458228236d84281f5, type: 2}
+  - {fileID: 11400000, guid: a7b5c08435cd5e24a9485dd3d0bc2a2c, type: 2}
   incomeSpeed: 0.01
   populationIncome: 0
   populationMax: 30
@@ -4992,6 +5000,12 @@ MonoBehaviour:
   dreamIncome: 0
   dreamMax: 30
   dreamCurrent: 0
+  resourceList:
+  - {fileID: 11400000, guid: f246b3510573f0747810cf76669ed35c, type: 2}
+  - {fileID: 11400000, guid: d9df42ff792152948a909e8783764ca5, type: 2}
+  - {fileID: 11400000, guid: 164b9d032bf3d9f47a6e1ac677fbeb16, type: 2}
+  - {fileID: 11400000, guid: 2e6ca29812032ed48968b4e5f7646880, type: 2}
+  - {fileID: 11400000, guid: bf272d8b7f113ff4ba99bf46739846d7, type: 2}
 --- !u!114 &960598421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5254,6 +5268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37dd3effe55e590448723a4b72b3e779, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textSeparator: <br><align="center">--------------</align><br>
   feedbackEventImage: {fileID: 11400000, guid: 1088be3b68c578f4aadd0c52c8d03df4, type: 2}
   feedbackEventButton: {fileID: 11400000, guid: d79ac06a1e18e3744a816324e13485bd, type: 2}
   tooltipRect: {fileID: 550390741}

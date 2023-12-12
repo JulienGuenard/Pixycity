@@ -21,9 +21,18 @@ public struct StructResource
 }
 
 [System.Serializable]
+public struct StructSingleResource
+{
+    public int cost;
+    public float income;
+    public float max;
+    public float popUsed;
+}
+
+[System.Serializable]
 public struct StructEventTooltip
 {
-    public string name;
+    public string eventName;
     public Sprite spriteIcon;
 
     [TextArea] public List<string> tooltipIngame, tooltipIcon;

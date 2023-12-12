@@ -7,8 +7,7 @@ using UnityEngine;
 public class TooltipManager : MonoBehaviour
 {
     #region Variables
-    private Vector2 autoSize;
-    private TooltipTrigger triggerCurrent;
+    [TextArea][SerializeField] private string textSeparator;
 
     [SerializeField] private FeedbackObject feedbackEventImage;
     [SerializeField] private FeedbackObject feedbackEventButton;
@@ -16,16 +15,29 @@ public class TooltipManager : MonoBehaviour
     [SerializeField] private RectTransform tooltipRect;
     [SerializeField] private TextMeshProUGUI tooltipText;
 
+    private Vector2 autoSize;
+    private TooltipTrigger triggerCurrent;
     private Transform rootParent;
-
     #region Get / Set
+    public FeedbackObject FeedbackEventImage
+    {
+        get { return feedbackEventImage; }
+        set { feedbackEventImage = value; }
+    }
+
+    public FeedbackObject FeedbackEventButton
+    {
+        get { return feedbackEventButton; }
+        set { feedbackEventButton = value; }
+    }
+
     public RectTransform TooltipRect
         {
             get { return tooltipRect; }
             set { tooltipRect = value; }
         }
 
-        public TextMeshProUGUI TooltipText
+    public TextMeshProUGUI TooltipText
         {
             get { return tooltipText; }
             set { tooltipText = value; }
@@ -47,55 +59,131 @@ public class TooltipManager : MonoBehaviour
         if (instance == null) instance = this;
 
         rootParent = tooltipRect.transform.parent;
+
 }
 
-    public void CursorEnter(TooltipTrigger trigger, FeedbackObject feedback, Vector2 offset, Vector2 size)
+    public void CursorEnter(TooltipTrigger trigger)
     {
         if (tooltipRect.gameObject.activeInHierarchy)   return;
         if (trigger == triggerCurrent)                  return;
 
-        tooltipRect.gameObject.SetActive(true);
         triggerCurrent = trigger;
+
+        CursorEnter_ChangePosition();
+        CursorEnter_ChangeValues();
+        StartCoroutine(ActiveDelay());
+    }
+
+    private void CursorEnter_ChangePosition()
+    {
+        tooltipRect.gameObject.SetActive(true);
 
         Vector2 falseOffset = new Vector2(200, 200);
         autoSize = new Vector2(0, 0);
 
-        tooltipRect.anchorMin = offset + falseOffset;
-        tooltipRect.anchorMax = offset + falseOffset + size;
+        tooltipRect.anchorMin = triggerCurrent.Offset + falseOffset;
+        tooltipRect.anchorMax = triggerCurrent.Offset + falseOffset + triggerCurrent.Size;
+    }
+    private void CursorEnter_ChangeValues()
+    {
+        string stringNew = " ";
 
-        if (feedback == feedbackEventImage)
-        {
-            tooltipText.text = trigger.GetComponentInParent<EventGMB>().EventObj.infos.tooltipIcon[0];
-        }
+        stringNew = ChangeValue_Description();
+        stringNew += ChangeValue_Resource();
 
-        else if (feedback == feedbackEventButton)
-        {
-            tooltipText.text = trigger.GetComponentInParent<ChoiceGMB>().ChoiceObj.infos.tooltipIcon[0];
-        }
-        else
-        {
-            tooltipText.text = feedback.infos.tooltipIcon[0];
-        }
-
-        StartCoroutine(ActiveDelay(offset, size));
+        tooltipText.text = stringNew;
     }
 
-    IEnumerator ActiveDelay(Vector2 offset, Vector2 size)
+    string ChangeValue_Description()
+    {
+        if (triggerCurrent.EventGMB != null)        return triggerCurrent.EventGMB.EventObj.infos.tooltipIcon[0];
+        else if (triggerCurrent.ChoiceGMB != null)  return triggerCurrent.ChoiceGMB.ChoiceObj.infos.tooltipIcon[0];
+        else                                        return triggerCurrent.feedback.infos.tooltipIcon[0];
+    }
+    string ChangeValue_Resource()
+    {
+        if (triggerCurrent.ChoiceGMB != null)           return CV_Resource_Choice();
+
+        List<FeedbackObject> list = ResourceManager.instance.FeedbackListGet();
+
+        if (list.Contains(triggerCurrent.feedback))     return CV_Resource_PlayerResources(list);
+        else                                            return null;
+    }
+
+    string CV_Resource_Choice()
+    {
+        StructResource res = triggerCurrent.ChoiceGMB.ChoiceObj.resources;
+
+        string txt = textSeparator + "Cost" + ": ";
+        List<float> costList = new List<float> { res.dreamCost, res.moneyCost, res.populationCost, res.toolCost, res.foodCost };
+        txt = CV_Resource_Choice_Loop(costList, txt, "");
+
+        txt += "<br>" + "Income" + ": ";
+        List<float> incomeList = new List<float> { res.dreamIncome, res.moneyIncome, res.populationIncome, res.toolIncome, res.foodIncome };
+        txt = CV_Resource_Choice_Loop(incomeList, txt, "+");
+
+        txt += "<br>" + "Max" + ": ";
+        List<float> maxList = new List<float> { res.dreamMax, res.moneyMax, res.populationMax, res.toolMax, res.foodMax };
+        txt = CV_Resource_Choice_Loop(maxList, txt, "+");
+
+        return txt;
+    }
+
+    string CV_Resource_Choice_Loop(List<float> list, string txt, string txtOther)
+    {
+        for (int i = 0; i < list.Count; i++)
+        {
+            if (list[i] != 0)
+            {
+                txt += txtOther;
+                txt += list[i];
+                txt += " " + "<voffset=10><sprite=" + i + "></voffset>";
+                txt += " ";
+            }
+        }
+
+        return txt;
+    }
+
+    string CV_Resource_PlayerResources(List<FeedbackObject> list)
+    {
+        StructSingleResource res = new StructSingleResource();
+        int y = 0;
+
+        for(int i = 0; i < list.Count; i++)
+        {
+            if (list[i] == triggerCurrent.feedback) 
+            {
+                res = ResourceManager.instance.ResourceListGet()[i].resources;
+                y = i;
+                break; 
+            }
+        }
+
+        string txt = textSeparator + "Income: " + res.income;
+        txt += "<br>" + "<size=10> </size>Max: " + res.max;
+        if (y == 0) txt += "<br>" + "<size=10> </size>Used: " + res.popUsed;
+
+        return txt;
+    }
+
+    IEnumerator ActiveDelay()
     {
         yield return new WaitForSeconds(0.01f);
+        if (triggerCurrent == null) yield break;
 
         autoSize = new Vector2(0, 0.04f * tooltipText.textInfo.lineCount);
 
-        if (offset.y > 0.5f)
+        if (triggerCurrent.Offset.y > 0.5f)
         {
-            tooltipRect.anchorMin = offset - autoSize - new Vector2(size.x, 0);
-            tooltipRect.anchorMax = offset;
+            tooltipRect.anchorMin = triggerCurrent.Offset - autoSize - new Vector2(triggerCurrent.Size.x, 0);
+            tooltipRect.anchorMax = triggerCurrent.Offset;
         }
 
-        if (offset.y <= 0.5f)
+        if (triggerCurrent.Offset.y <= 0.5f)
         {
-            tooltipRect.anchorMin = offset;
-            tooltipRect.anchorMax = offset + autoSize + new Vector2(size.x, 0);
+            tooltipRect.anchorMin = triggerCurrent.Offset;
+            tooltipRect.anchorMax = triggerCurrent.Offset + autoSize + new Vector2(triggerCurrent.Size.x, 0);
         }
     }
 
