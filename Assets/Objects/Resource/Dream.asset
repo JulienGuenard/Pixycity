@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Dream
   m_EditorClassIdentifier: 
   resources:
+    resourceType: 4
+    current: 0
     cost: 0
     income: 0
     max: 30

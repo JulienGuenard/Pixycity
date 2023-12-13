@@ -126,6 +126,24 @@ public class TooltipManager : MonoBehaviour
         List<float> maxList = new List<float> { res.dreamMax, res.moneyMax, res.populationMax, res.toolMax, res.foodMax };
         txt = CV_Resource_Choice_Loop(maxList, txt, "+");
 
+        txt += textSeparator + "Meteo Events" + "<br>" ;
+
+        for(int i = 0; i < triggerCurrent.ChoiceGMB.ChoiceObj.hazards.Count; i++)
+        {
+            for (int y = 0; y < triggerCurrent.ChoiceGMB.ChoiceObj.hazards[i].meteoList.Count; y++)
+            {
+                EnumMeteo enumMeteo = triggerCurrent.ChoiceGMB.ChoiceObj.hazards[i].meteoList[y];
+
+                switch (enumMeteo)
+                {
+                    case EnumMeteo.Sun: txt += " " + "<size='50'>" + "<voffset=10><sprite=" + 7 + "></voffset>"; break;
+                    case EnumMeteo.Rain: txt += " " + "<size='50'>" + "<voffset=10><sprite=" + 6 + "></voffset>"; break;
+                    case EnumMeteo.Cloud: txt += " " + "<size='50'>" + "<voffset=10><sprite=" + 5 + "></voffset>"; break;
+                }
+            }
+            txt += "<br>";
+        }
+
         return txt;
     }
 

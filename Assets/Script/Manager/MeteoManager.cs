@@ -9,6 +9,7 @@ public class MeteoManager : MonoBehaviour
     #region Variables
     [SerializeField] private int meteoTimelineLimit;
     [SerializeField] private MeteoObject meteoCurrent;
+    private MeteoObject meteoPrevious;
     private bool meteoHasChanged = false;
 
     [SerializeField] private float scrollX;
@@ -116,7 +117,7 @@ public class MeteoManager : MonoBehaviour
             meteoGMB.Rect.anchorMax -= new Vector2(scrollXSpeedActual, 0);
 
             if (meteoGMB.Rect.anchorMin.x <= scrollXMinAutoMoveAtLast) meteoGMBBelow = meteoGMB;
-            if (meteoGMB.Rect.anchorMin.x <= scrollXMinCurrent) MeteoNew_Current(meteoGMB);
+            if (meteoGMB.Rect.anchorMin.x <= scrollXMinCurrent) MeteoNew_ChangeCurrent(meteoGMB);
         }
 
         if (meteoGMBBelow == null) return;
@@ -134,10 +135,42 @@ public class MeteoManager : MonoBehaviour
         MeteoGMBListGet().Insert(0, meteoGMB);
     }
 
-    void MeteoNew_Next(MeteoGMB meteoGMB)
+    private void MeteoNew_Next(MeteoGMB meteoGMB)
     {
         meteoHasChanged = false;
         meteoGMB.MeteoObject = meteoObjList[Random.Range(0, meteoObjList.Count)];
+    }
+    private void MeteoNew_ChangeCurrent(MeteoGMB meteoGMB)
+    {
+        if (meteoHasChanged) return;
+        meteoHasChanged = true;
+
+        ChangeCurrent_ChangeValues(meteoGMB);
+        ChangeCurrent_ChangeUI();
+    }
+
+    private void ChangeCurrent_ChangeValues(MeteoGMB meteoGMB)
+    {
+        meteoPrevious = meteoCurrent;
+        meteoCurrent = meteoGMB.MeteoObject;
+        meteoTimelineList.Add(meteoCurrent);
+
+        UIManager.instance.MeteoCurrent.sprite = meteoCurrent.infos.infos.spriteIcon;
+        HazardManager.instance.CheckMeteo(meteoCurrent);
+    }
+    private void ChangeCurrent_ChangeUI()
+    {
+        if (meteoTimelineList.Count > meteoTimelineLimit) MeteoTimelineListRemove(meteoTimelineList[0]);
+        if (meteoPrevious.meteo == meteoCurrent.meteo) return;
+
+        foreach (GameObject obj in MeteoFXListGet()) { obj.SetActive(false); }
+
+        switch (meteoCurrent.meteo)
+        {
+            case EnumMeteo.Sun: MeteoFXListGet()[0].SetActive(true); break;
+            case EnumMeteo.Cloud: MeteoFXListGet()[1].SetActive(true); break;
+            case EnumMeteo.Rain: MeteoFXListGet()[2].SetActive(true); break;
+        }
     }
 
     void MeteoReset()
@@ -145,35 +178,6 @@ public class MeteoManager : MonoBehaviour
         foreach(MeteoGMB gmb in MeteoGMBListGet())
         {
             MeteoNew_Next(gmb);
-        }
-    }
-
-    void MeteoNew_Current(MeteoGMB meteoGMB)
-    {
-        if (meteoHasChanged) return;
-
-        meteoHasChanged = true;
-
-        MeteoObject previousMeteo = meteoCurrent;
-        meteoCurrent = meteoGMB.MeteoObject;
-        UIManager.instance.MeteoCurrent.sprite = meteoCurrent.infos.infos.spriteIcon;
-
-        meteoTimelineList.Add(meteoCurrent);
-
-        if (meteoTimelineList.Count > meteoTimelineLimit) MeteoTimelineListRemove(meteoTimelineList[0]);
-
-        if (previousMeteo.meteo == meteoCurrent.meteo) return;
-
-        foreach(GameObject obj in MeteoFXListGet())
-        {
-            obj.SetActive(false);
-        }
-
-        switch (meteoCurrent.meteo)
-        {
-            case EnumMeteo.Sun: MeteoFXListGet()[0].SetActive(true);    break;
-            case EnumMeteo.Cloud: MeteoFXListGet()[1].SetActive(true);  break;
-            case EnumMeteo.Rain: MeteoFXListGet()[2].SetActive(true);   break;
         }
     }
 }

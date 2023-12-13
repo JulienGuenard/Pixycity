@@ -55,7 +55,8 @@ public class ResourceManager : MonoBehaviour
             else if (value < 0 && populationCurrent <= 0f) populationCurrent = 0f;
             else populationCurrent = value;
 
-            PopulationFree += value;
+            PopulationFree = value;
+            ResourceListGet()[0].resources.current = populationCurrent;
         }
     }
     public float PopulationFree
@@ -69,7 +70,6 @@ public class ResourceManager : MonoBehaviour
 
             UIManager.instance.PopulationText.text = Mathf.FloorToInt(populationCurrent).ToString() + "(" + Mathf.FloorToInt(populationFree).ToString() + ")";
 
-            moneyIncome = value;
             ResourceListGet()[0].resources.popUsed = populationFree;
         }
     }
@@ -106,6 +106,7 @@ public class ResourceManager : MonoBehaviour
             else                                                    moneyCurrent = value;
 
             UIManager.instance.MoneyText.text = Mathf.FloorToInt(moneyCurrent).ToString();
+            ResourceListGet()[1].resources.current = moneyCurrent;
         }
     }
 
@@ -141,6 +142,7 @@ public class ResourceManager : MonoBehaviour
             else foodCurrent = value;
 
             UIManager.instance.FoodText.text = Mathf.FloorToInt(foodCurrent).ToString();
+            ResourceListGet()[2].resources.current = foodCurrent;
         }
     }
 
@@ -176,6 +178,7 @@ public class ResourceManager : MonoBehaviour
             else toolCurrent = value;
 
             UIManager.instance.ToolText.text = Mathf.FloorToInt(toolCurrent).ToString();
+            ResourceListGet()[3].resources.current = moneyCurrent;
         }
     }
 
@@ -211,6 +214,7 @@ public class ResourceManager : MonoBehaviour
             else dreamCurrent = value;
 
             UIManager.instance.DreamText.text = Mathf.FloorToInt(dreamCurrent).ToString();
+            ResourceListGet()[4].resources.current = moneyCurrent;
         }
     }
 

@@ -21,8 +21,17 @@ public struct StructResource
 }
 
 [System.Serializable]
+public class StructBuildingMeteos
+{
+    public ChoiceObject building;
+    public List<EnumMeteo> meteoEnumList = new List<EnumMeteo>();
+}
+
+[System.Serializable]
 public struct StructSingleResource
 {
+    public EnumResource resourceType;
+    public float current;
     public int cost;
     public float income;
     public float max;

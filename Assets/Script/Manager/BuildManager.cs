@@ -30,8 +30,12 @@ public class BuildManager : MonoBehaviour
     [SerializeField] private List<GameObject> slotBuildEmptyList;
     private List<GameObject> slotBuildList = new List<GameObject>();
 
+    [SerializeField] private List<GameObject> slotSpecialList;
+
     [SerializeField] List<ChoiceObject> cycleBuilding;
     private List<ChoiceObject> cycleBuildingActual = new List<ChoiceObject>();
+
+    private List<ChoiceObject> buildingConstructedList = new List<ChoiceObject>();
 
     #region Get / Set
     public List<GameObject> SlotBuildEmptyListGet()
@@ -60,6 +64,19 @@ public class BuildManager : MonoBehaviour
         slotBuildList.Remove(item);
     }
 
+    public List<GameObject> SlotSpecialListGet()
+    {
+        return slotSpecialList;
+    }
+    public void SlotSpecialListAdd(GameObject item)
+    {
+        slotSpecialList.Add(item);
+    }
+    public void SlotSpecialListRemove(GameObject item)
+    {
+        slotSpecialList.Remove(item);
+    }
+
     public List<ChoiceObject> CycleListGet()
     {
         return cycleBuilding;
@@ -84,6 +101,19 @@ public class BuildManager : MonoBehaviour
     public void CycleListActualRemove(ChoiceObject item)
     {
         cycleBuildingActual.Remove(item);
+    }
+
+    public List<ChoiceObject> BuildingConstructedListGet()
+    {
+        return buildingConstructedList;
+    }
+    public void BuildingConstructedListAdd(ChoiceObject item)
+    {
+        buildingConstructedList.Add(item);
+    }
+    public void BuildingConstructedListRemove(ChoiceObject item)
+    {
+        buildingConstructedList.Remove(item);
     }
     #endregion
 
@@ -180,6 +210,12 @@ public class BuildManager : MonoBehaviour
         BuildEventLimitActual--;
 
         ResourceManager.instance.ChangeResources(choiceObj);
+
+        StructBuildingMeteos structBuildMeteos = new StructBuildingMeteos();
+        structBuildMeteos.building = choiceObj;
+        HazardManager.instance.MeteoPerBuildingListAdd(structBuildMeteos);
+
+        CycleListActualAdd(choiceObj);
         BuildNew_UseSlot(choiceObj);
         BuildNew_CycleNextTier(choiceGMB, choiceObj);
 
@@ -190,14 +226,16 @@ public class BuildManager : MonoBehaviour
     {
         GameObject slot = SlotBuildEmptyListGet()[Random.Range(0, SlotBuildEmptyListGet().Count)];
 
-        SlotBuildEmptyListRemove(slot);
-        SlotBuildListAdd(slot);
+        if (choiceObj.slot.specificSlotID != 0) slot = SlotSpecialListGet()[choiceObj.slot.specificSlotID - 1];
+        else SlotBuildEmptyListRemove(slot);
 
-        slot.GetComponent<SpriteRenderer>().sprite = choiceObj.building.buildingSprite;
+        SlotBuildListAdd(slot);
 
         if (choiceObj.slot.posOffset != Vector2.zero) slot.transform.position = choiceObj.slot.posOffset;
         if (choiceObj.slot.scale != 0) slot.transform.localScale = new Vector3(choiceObj.slot.scale, choiceObj.slot.scale, choiceObj.slot.scale);
         if (choiceObj.slot.layer != 0) slot.GetComponent<SpriteRenderer>().sortingOrder = choiceObj.slot.layer;
+
+        slot.GetComponent<SpriteRenderer>().sprite = choiceObj.building.buildingSprite;
     }
     private void BuildNew_CycleNextTier(ChoiceGMB choiceGMB, ChoiceObject choiceObj)
     {

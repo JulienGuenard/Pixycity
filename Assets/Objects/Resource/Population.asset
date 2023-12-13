@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Population
   m_EditorClassIdentifier: 
   resources:
+    resourceType: 0
+    current: 0
     cost: 0
     income: 0
     max: 30

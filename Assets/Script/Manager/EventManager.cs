@@ -48,6 +48,8 @@ public class EventManager : MonoBehaviour
     {
         eventList.Remove(item);
     }
+
+
     #endregion
 
     public static EventManager instance;
